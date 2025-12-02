@@ -3,3 +3,4 @@ flask-cors
 pymongo
 google-generativeai
 gunicorn
+grpcio
