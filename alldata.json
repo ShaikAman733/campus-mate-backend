@@ -1,0 +1,1724 @@
+[
+  {
+    "_id": "greet001",
+    "category": "General",
+    "title": "Greeting Response",
+    "location": "Chatbot",
+    "details": {
+      "vision": "Random greeting response.",
+      "text_for_ai": "Hey there! What can I help you with today?"
+    }
+  },
+  {
+    "_id": "greet002",
+    "category": "General",
+    "title": "Greeting Response",
+    "location": "Chatbot",
+    "details": {
+      "vision": "Random greeting response.",
+      "text_for_ai": "Hello! Hope you're doing well. How can I assist you?"
+    }
+  },
+  {
+    "_id": "greet003",
+    "category": "General",
+    "title": "Greeting Response",
+    "location": "Chatbot",
+    "details": {
+      "vision": "Random greeting response.",
+      "text_for_ai": "hi  What do you need?"
+    }
+  },
+  {
+    "_id": "greet004",
+    "category": "General",
+    "title": "Greeting Response",
+    "location": "Chatbot",
+    "details": {
+      "vision": "Random greeting response.",
+      "text_for_ai": "Hey! What's up?"
+    }
+  },
+  {
+    "_id": "greet005",
+    "category": "General",
+    "title": "Greeting Response",
+    "location": "Chatbot",
+    "details": {
+      "vision": "Random greeting response.",
+      "text_for_ai": "hello there! How can I help you today?"
+    }
+  },
+  {
+    "category": "About",
+    "title": "About RLJIT",
+    "location": "RLJIT Campus, Doddaballapur",
+    "details": {
+      "vision": "To be a premier institution by imparting Quality in Technical Education, Professional Training and Research"
+    },
+    "text_for_ai": "RLJIT envisions being a premier institution by imparting Quality in Technical Education, Professional Training, and Research."
+  },
+  {
+    "category": "About",
+    "title": "About The Trust (Sri Devaraj Urs Educational Trust)",
+    "location": "Kolar / Doddaballapur",
+    "details": {
+      "trust_name": "Sri Devaraj Urs Educational Trust (SDUET)",
+      "institutes_managed": [
+        "Sri Devaraj Urs Medical College (1988)",
+        "Sri Devaraj Urs College of Nursing (1986)",
+        "R. L. Jalappa Institute of Technology (2001)",
+        "Sri Devaraj Urs International Residential School (2003)",
+        "R L Jalappa Polytechnic (2016)"
+      ]
+    },
+    "text_for_ai": "The Sri Devaraj Urs Educational Trust (SDUET) runs several institutes, including Sri Devaraj Urs Medical College, R. L. Jalappa Institute of Technology (est. 2001), and others."
+  },
+  {
+    "category": "Facility",
+    "title": "Hostel Facility",
+    "location": "On Campus",
+    "details": {
+      "capacity": "800+ students (500 boys, 300 girls)",
+      "structure": "Two boys hostels, two girls hostels (six blocks)",
+      "amenities": "Homely food, Solar hot water, RO-purified water, Wi-Fi (32Mbps), LED TV, Gym, Swimming pool, 24/7 Medical vehicle, Power backup"
+    },
+    "text_for_ai": "The Institution provides separate hostels for boys and girls accommodating over 800 students. Facilities include Wi-Fi, gym, swimming pool, nutritious food, and 24/7 medical support."
+  },
+  {
+    "category": "Facility",
+    "title": "Library and Information Center",
+    "location": "Academic Block",
+    "details": {
+      "volumes": "25,917",
+      "titles": "3,254",
+      "seating_capacity": "165",
+      "digital_resources": "VTU Consortium, Knimbus, DELNET",
+      "software": "LIBSOFT 12.0",
+      "plagiarism_tools": "Drill Bit & Turnitin"
+    },
+    "text_for_ai": "The automated Library and Information Center holds over 25,000 volumes, provides access to 7,700+ e-journals via the VTU Consortium, and includes plagiarism checking tools and Wi-Fi."
+  },
+  {
+    "category": "Department",
+    "title": "Department of Artificial Intelligence & Machine Learning (AIML)",
+    "location": "Department Block",
+    "details": {
+      "focus": "Artificial Intelligence & Machine Learning",
+      "resources": "Faculty profiles and publication details available"
+    },
+    "text_for_ai": "The Department of AIML focuses on AI and Machine Learning education and research, providing access to faculty profiles and publications."
+  },
+  {
+    "category": "Department Event",
+    "title": "TECHNOUTSAV (CSE)",
+    "location": "RLJIT Campus",
+    "details": {
+      "organizer": "Department of Computer Science and Engineering",
+      "activities": "Coding, Gaming, Photography, Group Discussion",
+      "participation": "800+ students from 20+ colleges"
+    },
+    "text_for_ai": "The CSE Department organized TECHNOUTSAV, a technical fest featuring over 10 events like coding and gaming, attended by over 800 students from various colleges."
+  },
+  {
+    "category": "Placement",
+    "title": "Placement Cell",
+    "location": "Administrative Block",
+    "details": {
+      "activities": "Campus interviews, Technical seminars, Workshops, Corporate expectation sessions, Individual counseling",
+      "resources": "Placement records, MOUs, Placed students lists"
+    },
+    "text_for_ai": "The RLJIT Placement Cell facilitates campus interviews with reputed organizations and prepares students through workshops, seminars, and counseling."
+  },
+  {
+    "category": "Policy",
+    "title": "Definition of Ragging",
+    "location": "Campus-wide",
+    "details": {
+      "nature": "Prohibited",
+      "definition": "Teasing, rudeness, rowdy activities, financial extortion, physical or mental abuse",
+      "scope": "Includes bullying based on color, race, religion, caste, ethnicity, or gender"
+    },
+    "text_for_ai": "Ragging is strictly prohibited and defined as any conduct causing annoyance, hardship, or physical/psychological harm, including bullying and extortion."
+  },
+  {
+    "category": "Initiative",
+    "title": "Incubation Center",
+    "location": "RLJIT Campus",
+    "details": {
+      "offerings": "Mentorship, Office space, Infrastructure, Funding assistance",
+      "focus_areas": "Agriculture, AI, Bio-tech, Cyber Security, Defence, Healthcare, IT",
+      "startups": "Big Line Infotech, Sigma Networks Technology, Forever Frozencomp innovations"
+    },
+    "text_for_ai": "The Incubation Centre fosters entrepreneurship by providing mentorship and resources in fields like AI and Agriculture. It currently supports startups like Big Line Infotech and Sigma Networks."
+  },
+  {
+    "category": "Faculty",
+    "title": "Key Administration & Faculty",
+    "location": "Various Departments",
+    "details": {
+      "principal": "Dr. P. Vijayakarthik (CSE)",
+      "vice_principal": "Dr. Shivaprasad (ECE)",
+      "cse_faculty": ["Mr. Shankar NB", "Dr. Manjunath BN", "Vincent Rathna Sahaya Raj"],
+      "ece_faculty": ["Dr. Harish S", "Dr. Madhu Chandra", "Dr. Anil Kumar C"],
+      "placement_officer": "Mrs. Kavya T.S"
+    },
+    "text_for_ai": "Key faculty include Principal Dr. P. Vijayakarthik and Vice Principal Dr. Shivaprasad. The institute has specialized faculty across CSE, ECE, ME, and Allied Sciences."
+  },
+  {
+    "category": "General Info",
+    "title": "R. L. Jalappa Institute of Technology (RLJIT) - Overview",
+    "details": {
+      "location": "Kodigehalli, Doddaballapur – 561203, Bengaluru Rural District, Karnataka, India",
+      "affiliation": "Visvesvaraya Technological University (VTU), Belagavi",
+      "approval": "AICTE, New Delhi",
+      "establishment": "2001",
+      "campus_size": "30-34 Acres",
+      "management": "Sri Devaraj Urs Educational Trust (SDUET)"
+    },
+    "text_for_ai": "R. L. Jalappa Institute of Technology (RLJIT) was established in 2001 in Doddaballapur, Karnataka. It is affiliated with VTU, approved by AICTE, and managed by the Sri Devaraj Urs Educational Trust."
+  },
+  {
+    "category": "Academics",
+    "title": "Fee Structure & Courses",
+    "details": {
+      "B_Tech_CSE_Total": "₹ 10.45 Lakhs approx (4 years)",
+      "B_Tech_AIML_Total": "₹ 11.26 Lakhs (4 years)",
+      "B_Tech_Mech_Total": "₹ 4.8 Lakhs (4 years)",
+      "MBA_Total": "₹ 1.37 Lakhs (2 years)",
+      "M_Tech_Total": "₹ 1.6 Lakhs (2 years)",
+      "yearly_breakdown_cse": "₹ 2,61,477/year + misc ~ ₹20,000/year"
+    },
+    "text_for_ai": "RLJIT offers B.Tech, M.Tech, and MBA programs. The total 4-year fee for CSE is approximately ₹10.45 Lakhs, while Mechanical Engineering is around ₹4.8 Lakhs. The MBA program costs approximately ₹1.37 Lakhs for 2 years."
+  },
+  {
+    "category": "Department",
+    "title": "Department of Computer Science and Engineering (CSE)",
+    "details": {
+      "establishment": "2001",
+      "intake_history": "Started with 60 (2001), increased to 120 (2005), currently 150 (2023)",
+      "programs": "Graduate (B.E), Postgraduate (M.Tech), and Ph.D.",
+      "research": "R&D center recognized by VTU (2017)",
+      "focus_areas": "Fundamental learning, project-based education, cutting-edge technologies"
+    },
+    "text_for_ai": "The CSE Department at RLJIT, established in 2001, offers UG, PG, and Ph.D. programs. It features a recognized R&D center and has grown its student intake to 150 as of 2023."
+  },
+  {
+    "category": "Faculty",
+    "title": "CSE Leadership & Faculty",
+    "details": {
+      "principal": "Dr. P. Vijayakarthik (Professor)",
+      "hod": "Dr. Sunil Kumar R M (Associate Professor)",
+      "professors": ["Dr. Kavitha C", "Dr. Mamatha C M"],
+      "associate_professors": ["Dr. Mrutyunjaya M S", "Dr. Murthy D H R", "Dr. Varalakshmi K R"],
+      "assistant_professors_count": "13+ (including Mr. Anand Reddy G M, Mr. Shankar N B, etc.)",
+      "support_staff": "Programmers, Teaching Assistants, and Attenders"
+    },
+    "text_for_ai": "The CSE department is led by HOD Dr. Sunil Kumar R M and Principal Dr. P. Vijayakarthik. The faculty team includes professors, associate professors, and assistant professors supported by technical staff."
+  },
+  {
+    "category": "Events",
+    "title": "Department Events & Activities",
+    "details": {
+      "technical_fest": "TECHNOUTSAV (Organized by CMOCS forum, included Coding, Gaming, Tech Talks)",
+      "workshops": "SDP on Full Stack Development, Data Driven Revolution (Accenture AI)",
+      "awareness_programs": "IEEE Awareness Program, World Environment Day",
+      "orientation": "Held for first-year M.Tech students"
+    },
+    "text_for_ai": "The department hosts active events such as the TECHNOUTSAV technical fest, Student Development Programs (SDP) on Full Stack Development, and various awareness workshops."
+  } ,
+  {
+    "category": "Admissions",
+    "title": "B.Tech Admission Eligibility & Process",
+    "details": {
+      "academic_requirement": "Passed 2nd PUC / 10+2 / equivalent examination",
+      "compulsory_subjects": "Physics and Mathematics",
+      "optional_subjects": "Chemistry, Bio-Technology, Biology, or Computer Science",
+      "minimum_marks": "45% (General) / 40% (SC/ST/OBC of Karnataka)",
+      "entrance_exams": "KCET (Karnataka students), COMEDK (All India)",
+      "management_quota": "Direct admission available (Must meet 45% academic eligibility)",
+      "contact_phone": "+91 72598 93093, +91 97419 83274",
+      "contact_email": "principal@rljit.in"
+    },
+    "text_for_ai": "Admission to B.Tech requires 10+2 with Physics and Math plus an optional subject, with a minimum of 45% marks (40% for reserved categories). Seats are allotted via KCET, COMEDK, or Management Quota."
+  },
+  {
+    "category": "Facilities",
+    "title": "Campus Infrastructure & Amenities",
+    "details": {
+      "hostel": "2 Boys & 2 Girls hostels (6 blocks), Capacity: 800+ (500 boys, 300 girls), Wi-Fi (32Mbps), Gym, Solar hot water",
+      "library": "25,917 volumes, 3,254 titles, VTU Consortium member, Digital Library with Knimbus/DELNET",
+      "transport": "Comprehensive bus facility available",
+      "medical": "On-campus dispensary with qualified professionals and emergency vehicle",
+      "other_amenities": "ATM, Staff Quarters, Co-operative Society, Kalamandir (Cultural Hub), 24/7 Gym"
+    },
+    "text_for_ai": "RLJIT provides hostels for over 800 students, a library with over 25,000 volumes, transport, an on-campus dispensary, an ATM, and a cultural hub named Kalamandir."
+  },
+  {
+    "category": "Placements",
+    "title": "Placement Cell & Statistics",
+    "details": {
+      "recent_success": "20 students placed in NNN Net solutions (6 LPA package)",
+      "activities": "Technical seminars, workshops, corporate expectation sessions, individual counseling",
+      "resources": "Placement records (2018-2023), MOUs, Placed Students list",
+      "key_personnel": "Prof. Babu Reddy N S (Director - HRM), Mrs. Kavya T.S (Training and Placement Officer)"
+    },
+    "text_for_ai": "The Placement Cell conducts workshops and counseling. Recently, 20 students were placed at NNN Net solutions with a 6 LPA package. Key contacts include Mrs. Kavya T.S."
+  },
+  {
+    "category": "Innovation",
+    "title": "Incubation Center & Initiatives",
+    "details": {
+      "incubation_center": "Fosters entrepreneurship in AI, Cyber Security, Agriculture, etc.",
+      "incubated_startups": "Big Line Infotech, Sigma Networks Technology, Forever Frozencomp innovations",
+      "unnat_bharat_abhiyan": "Committee includes Dr. P Vijayakarthi, Prof. Raghavendra Prasad, and others",
+      "institution_innovation_council": "Handles IPR, Startups, Internships, ARIIA, and NIRF coordination"
+    },
+    "text_for_ai": "RLJIT's Incubation Center supports startups like Big Line Infotech. The institute actively participates in the Unnat Bharat Abhiyan and has an Institution's Innovation Council (IIC)."
+  },
+  {
+    "category": "Events",
+    "title": "Key Events & Calendar",
+    "details": {
+      "silver_jubilee": "Celebrated 25 years & Founder's Birth Centenary on Oct 18-19",
+      "upcoming_fdp": "Cybersecurity FDP (July 24-26, 2025)",
+      "academic_calendar": "2025-26 Freshers Day: 15/09/2025, Hackathon 2025: 12-Sep-2025",
+      "past_events": "Global Alumni Meet (Dec 2024), 20th Graduation Ceremony (Sep 2024)"
+    },
+    "text_for_ai": "Major events include the Silver Jubilee celebration, the upcoming Cybersecurity FDP in July 2025, and Hackathon 2025 scheduled for September."
+  },
+  {
+    "category": "Student Life",
+    "title": "Clubs, NSS & Committees",
+    "details": {
+      "nss": "Motto: 'Not Me, Not You, But We'. Units: Jalappa, Salumarada thimakka, Sudhamurthy, Ibrahim Sutar",
+      "youth_red_cross": "Motto: 'Donate the blood save the lives'",
+      "clubs": "BIS Standards Club (Quality of life awareness)",
+      "anti_ragging": "Strict policy against physical/psychological harm; defined as bullying based on race, religion, etc."
+    },
+    "text_for_ai": "Student life includes the NSS, Youth Red Cross, and BIS Standards Club. The institute enforces strict anti-ragging policies to ensure a safe environment."
+  },
+  {
+    "category": "Faculty",
+    "title": "Institute Leadership & Faculty Directory",
+    "details": {
+      "principal": "Dr. P. Vijayakarthik (Dept: CSE)",
+      "vice_principal": "Dr. Shivaprasad (Dept: ECE)",
+      "cse_faculty": "Mr. Shankar NB (Startup Coord), Dr. Manjunath BN (ARIIA Coord), Vincent Rathna Sahaya Raj",
+      "ece_faculty": "Dr. Anil Kumar C (Head), Dr. Harish S, Dr. Madhu Chandra, Prof. Lavanya Vaishanvi D A",
+      "me_faculty": "Dr. Suchendra KR (IPR Coord), Prof. Raghavendra Prasad (UBA Coord)",
+      "placement_officer": "Mrs. Kavya T.S"
+    },
+    "text_for_ai": "RLJIT is led by Principal Dr. P. Vijayakarthik and Vice-Principal Dr. Shivaprasad. Key faculty include Dr. Anil Kumar C (Head ECE), Dr. Suchendra KR (ME), and Placement Officer Mrs. Kavya T.S."
+  },
+  {
+    "category": "About",
+    "title": "General Information & Trust",
+    "details": {
+      "vision": "To be a premier institution by imparting Quality in Technical Education, Professional Training and Research",
+      "sponsoring_trust": "Sri Devaraj Urs Educational Trust (SDUET)",
+      "trust_institutions": "SDU Medical College, SDU Nursing College, RLJIT, RLJ Polytechnic, SDU International Residential School",
+      "accreditation": "NAAC Accredited (SSR, IIQA available)",
+      "iqac": "Internal Quality Assurance Cell established with defined Quality Policy"
+    },
+    "text_for_ai": "RLJIT is sponsored by the Sri Devaraj Urs Educational Trust (SDUET). Its vision is to be a premier institution in technical education. It is NAAC accredited and maintains an Internal Quality Assurance Cell (IQAC)."
+  },
+  {
+    "category": "Facilities",
+    "title": "Campus Amenities & Infrastructure",
+    "details": {
+      "hostels": "2 Boys & 2 Girls hostels (800+ capacity), Wi-Fi (32Mbps), Gym, Solar hot water, Dispensary access",
+      "library": "25,917 volumes, 3,254 titles, 165 seating capacity, Automated (LIBSOFT 12.0), VTU Consortium member",
+      "transport": "Comprehensive bus facility available",
+      "healthcare": "On-campus dispensary with qualified professionals and emergency vehicle",
+      "cultural_hub": "Kalamandir (Platform for artistic expression)",
+      "other_amenities": "ATM, Staff Quarters, Co-operative Society, 24/7 Gym, Indoor/Outdoor Sports"
+    },
+    "text_for_ai": "The campus features extensive facilities including hostels for 800+ students, a library with over 25,000 volumes, a dispensary, a cultural hub named Kalamandir, and comprehensive transport and sports facilities."
+  },
+  {
+    "category": "Student Life",
+    "title": "Clubs, Committees & Activities",
+    "details": {
+      "nss": "Motto: 'Not Me, Not You, But We'. 4 Units available. Contact: govindaraj@rljit.in",
+      "youth_red_cross": "Motto: 'Donate the blood save the lives'. Focus on humanity and voluntary service.",
+      "bis_club": "Bureau of Indian Standards Club to sensitize students on quality standards",
+      "committees": "Minority, OBC, SC/ST, ICC, Anti-Ragging, Counselling Cell, IPR, Women Empowerment, etc.",
+      "sports_achievements": "Ball Badminton (3rd in VTU), Kho-Kho (2nd in VTU), Representation in All-India Inter-University teams"
+    },
+    "text_for_ai": "Student life is vibrant with clubs like NSS, Youth Red Cross, and BIS Standards Club. The institute has various committees for student welfare and a strong track record in sports competitions."
+  },
+  {
+    "category": "Innovation",
+    "title": "Research & Incubation",
+    "details": {
+      "incubation_center": "Supports startups in AI, Cyber Security, Agriculture, etc. Startups: Big Line Infotech, Sigma Networks",
+      "institution_innovation_council_iic": "Coordinates IPR, Startups, Internships, ARIIA, and NIRF",
+      "unnat_bharat_abhiyan": "Village adoption initiative. Committee includes Dr. P Vijayakarthi and faculty from ME/ECE"
+    },
+    "text_for_ai": "RLJIT fosters innovation through its Incubation Center, supporting startups like Big Line Infotech. It actively participates in the Institution's Innovation Council (IIC) and Unnat Bharat Abhiyan."
+  },
+  {
+    "category": "Academics",
+    "title": "Departments & Resources",
+    "details": {
+      "departments": "CSE, ECE, ME, Allied Sciences, AI & ML (AIML), Cyber Security (CYS), Data Science (DS), MBA",
+      "resources": "Course Outcomes (CO) & Program Outcomes (PO) mapping available",
+      "scholarships": "Links available for National Scholarship Portal",
+      "newsletters": "e-Sadhana Newsletter showcasing achievements"
+    },
+    "text_for_ai": "The institute offers programs in CSE, ECE, ME, AIML, Cyber Security, Data Science, and MBA. Resources like CO-PO mapping, scholarships, and the e-Sadhana newsletter are available."
+  },
+  {
+    "category": "Events",
+    "title": "Recent & Upcoming Events",
+    "details": {
+      "major_celebration": "25th Silver Jubilee & Founder's Birth Centenary (Oct 18-19)",
+      "upcoming_fdp": "Cybersecurity FDP (July 24-26, 2025)",
+      "hackathon": "Hackathon 2025 (Sept 12, 2025)",
+      "freshers_day": "2025-26 Batch starts Sept 15, 2025",
+      "technoutsav": "Technical fest with 10+ events and 800+ participants",
+      "industrial_visits": "ECE visit to URSC (ISRO), SAP Labs visit"
+    },
+    "text_for_ai": "Key events include the Silver Jubilee, Hackathon 2025, and the Cybersecurity FDP. The college also organizes the TECHNOUTSAV technical fest and industrial visits to places like ISRO and SAP Labs."
+  },
+  {
+    "category": "Policies",
+    "title": "Institutional Policies",
+    "details": {
+      "key_policies": "Academic Policy, R&D Policy, Anti-Ragging, Grievance Redressal, Internal Complaint Committee (ICC)",
+      "anti_ragging_definition": "Zero tolerance for physical/psychological harm, bullying, or disruption of academic activity",
+      "mandatory_disclosure": "Available (includes Audit Reports, NIRF 2024, RTI, Approvals)"
+    },
+    "text_for_ai": "RLJIT maintains strict policies including Anti-Ragging, R&D, and Grievance Redressal. Mandatory disclosures and audit reports are publicly available."
+  },
+  {
+    "category": "Faculty",
+    "title": "Faculty Directory (Key Contacts)",
+    "details": {
+      "principal": "Dr. P. Vijayakarthik (CSE) - 7259893093",
+      "vice_principal": "Dr. Shivaprasad (ECE) - 9741983274",
+      "placement_officer": "Mrs. Kavya T.S - 9620344918",
+      "hr_director": "Prof. Babu Reddy N S",
+      "cse_contacts": "Mr. Shankar NB, Dr. Manjunath BN, Vincent Rathna Sahaya Raj",
+      "ece_contacts": "Dr. Anil Kumar C (Head), Dr. Harish S, Dr. Madhu Chandra",
+      "me_contacts": "Dr. Suchendra KR, Prof. Raghavendra Prasad"
+    },
+    "text_for_ai": "Key leadership includes Principal Dr. P. Vijayakarthik and Vice-Principal Dr. Shivaprasad. The placement cell is led by Prof. Babu Reddy N S and Mrs. Kavya T.S."
+  },
+  {
+    "category": "Faculty - Administration",
+    "title": "Dr. P. Vijayakarthik (Principal)",
+    "details": {
+      "role": "Principal / President (IIC Committee)",
+      "department": "Computer Science",
+      "email": "principal@rljit.in",
+      "phone": "7259893093"
+    },
+    "text_for_ai": "Dr. P. Vijayakarthik is the Principal of RLJIT and serves as the President of the Institution's Innovation Council (IIC). He is a professor in the Computer Science department. Contact: principal@rljit.in or 7259893093."
+  },
+  {
+    "category": "Faculty - Administration",
+    "title": "Dr. Shivaprasad (Vice-Principal)",
+    "details": {
+      "role": "Vice Principal / Vice President (IIC)",
+      "department": "Electronics & Communication Engineering (ECE)",
+      "email": "shiavprasadkm@rljit.in",
+      "phone": "9741983274"
+    },
+    "text_for_ai": "Dr. Shivaprasad is the Vice Principal of RLJIT and the Vice President of the IIC. He is a faculty member in the ECE department. Contact: shiavprasadkm@rljit.in or 9741983274."
+  },
+  {
+    "category": "Faculty - CSE",
+    "title": "Mr. Shankar N.B.",
+    "details": {
+      "role": "Associate Professor / Startup Activity Coordinator",
+      "department": "Computer Science & Engineering (CSE)",
+      "email": "shankarnb@rljit.in",
+      "phone": "8660944500"
+    },
+    "text_for_ai": "Mr. Shankar N.B. is an Associate Professor in the CSE department. He also serves as the Startup Activity Coordinator. Contact: shankarnb@rljit.in or 8660944500."
+  },
+  {
+    "category": "Faculty - CSE",
+    "title": "Dr. Manjunath B.N.",
+    "details": {
+      "role": "Associate Professor / ARIIA Coordinator",
+      "department": "Computer Science & Engineering (CSE)",
+      "email": "manjunathabn@rljit.in",
+      "phone": "9482397464"
+    },
+    "text_for_ai": "Dr. Manjunath B.N. is an Associate Professor in the CSE department and acts as the ARIIA Coordinator. Contact: manjunathabn@rljit.in or 9482397464."
+  },
+  {
+    "category": "Faculty - CSE",
+    "title": "Mr. Vincent Rathna Sahaya Raj",
+    "details": {
+      "role": "Assistant Professor / Convener (IIC)",
+      "department": "Computer Science",
+      "email": "vincent@rljit.in",
+      "phone": "8220168361"
+    },
+    "text_for_ai": "Mr. Vincent Rathna Sahaya Raj is an Assistant Professor in Computer Science and serves as the Convener for the IIC. Contact: vincent@rljit.in or 8220168361."
+  },
+  {
+    "category": "Faculty - ECE",
+    "title": "Dr. Anil Kumar C",
+    "details": {
+      "role": "Associate Professor & Head / NIRF Coordinator (IIC)",
+      "department": "Electronics & Communication Engineering (ECE)",
+      "email": "anilkumarc@rljit.in"
+    },
+    "text_for_ai": "Dr. Anil Kumar C is the Head of the ECE Department (HOD) and serves as the NIRF Coordinator. Contact: anilkumarc@rljit.in."
+  },
+  {
+    "category": "Faculty - ECE",
+    "title": "Dr. Harish S",
+    "details": {
+      "role": "Associate Professor / Innovation Activity (IIC)",
+      "department": "Electronics & Communication Engineering (ECE)",
+      "email": "harishs@rljit.in",
+      "phone": "9964939169"
+    },
+    "text_for_ai": "Dr. Harish S is an Associate Professor in ECE and manages Innovation Activities for the IIC. Contact: harishs@rljit.in or 9964939169."
+  },
+  {
+    "category": "Faculty - ECE",
+    "title": "Dr. Madhu Chandra",
+    "details": {
+      "role": "Associate Professor / Internship Activity Coordinator (IIC)",
+      "department": "Electronics & Communication Engineering (ECE)",
+      "email": "madhuchandrag@rljit.in",
+      "phone": "9242408040"
+    },
+    "text_for_ai": "Dr. Madhu Chandra is an Associate Professor in ECE and serves as the Internship Activity Coordinator. Contact: madhuchandrag@rljit.in or 9242408040."
+  },
+  {
+    "category": "Faculty - ECE",
+    "title": "Prof. Lavanya Vaishanvi D A",
+    "details": {
+      "role": "Assistant Professor / Unnat Bharat Abhiyan Member",
+      "department": "Electronics & Communication Engineering (ECE)"
+    },
+    "text_for_ai": "Prof. Lavanya Vaishanvi D.A. is an Assistant Professor in ECE and an active member of the Unnat Bharat Abhiyan committee."
+  },
+  {
+    "category": "Faculty - ECE",
+    "title": "Prof. Aarathi V",
+    "details": {
+      "role": "Assistant Professor & Girls Hostel Warden / Unnat Bharat Abhiyan Member",
+      "department": "Electronics & Communication Engineering (ECE)"
+    },
+    "text_for_ai": "Prof. Aarathi V is an Assistant Professor in ECE. She also serves as the Girls Hostel Warden and is a member of the Unnat Bharat Abhiyan."
+  },
+  {
+    "category": "Faculty - ME",
+    "title": "Dr. Suchendra K.R.",
+    "details": {
+      "role": "Associate Professor / IPR Activity Coordinator (IIC)",
+      "department": "Mechanical Engineering (ME)",
+      "email": "suchedrakr@rljit.in",
+      "phone": "9980033441"
+    },
+    "text_for_ai": "Dr. Suchendra K.R. is an Associate Professor in Mechanical Engineering and coordinates IPR Activities for the IIC. Contact: suchedrakr@rljit.in or 9980033441."
+  },
+  {
+    "category": "Faculty - ME",
+    "title": "Prof. Raghavendra Prasad",
+    "details": {
+      "role": "Assistant Professor / Unnat Bharat Abhiyan Coordinator",
+      "department": "Mechanical Engineering (ME)"
+    },
+    "text_for_ai": "Prof. Raghavendra Prasad is an Assistant Professor in Mechanical Engineering and acts as the Coordinator for the Unnat Bharat Abhiyan."
+  },
+  {
+    "category": "Faculty - CYS",
+    "title": "Cyber Security Faculty",
+    "details": {
+      "faculty_names": ["Sushma L", "Pushpa V"],
+      "department": "Cyber Security (CYS)"
+    },
+    "text_for_ai": "The Cyber Security department faculty includes Sushma L and Pushpa V."
+  },
+  {
+    "category": "Faculty - Allied Sciences",
+    "title": "Prof. Shashidhar S N",
+    "details": {
+      "role": "Assistant Professor / Unnat Bharat Abhiyan Member",
+      "department": "Allied Sciences"
+    },
+    "text_for_ai": "Prof. Shashidhar S.N. is an Assistant Professor in Allied Sciences and a member of the Unnat Bharat Abhiyan."
+  },
+  {
+    "category": "Placement Cell",
+    "title": "Prof. Babu Reddy N S",
+    "details": {
+      "role": "Director - HRM",
+      "organization": "RLJ Group of Institutions"
+    },
+    "text_for_ai": "Prof. Babu Reddy N.S. is the Director of Human Resource Management (HRM) for the RLJ Group of Institutions."
+  },
+  {
+    "category": "Placement Cell",
+    "title": "Mrs. Kavya T.S",
+    "details": {
+      "role": "Training and Placement Officer",
+      "email": "kavya@rljit.in",
+      "phone": "9620344918"
+    },
+    "text_for_ai": "Mrs. Kavya T.S is the Training and Placement Officer (TPO) at RLJIT. She handles recruitment and training queries. Contact: kavya@rljit.in or 9620344918."
+  },
+  {
+    "category": "Facility",
+    "title": "Transport Facility",
+    "details": {
+      "type": "Bus Service",
+      "availability": "Comprehensive facility for students"
+    },
+    "text_for_ai": "RLJIT offers a comprehensive bus transport facility to ensure easy commuting for students."
+  },
+  {
+    "category": "Facility",
+    "title": "ATM Facility",
+    "details": {
+      "location": "On-campus",
+      "purpose": "Easy access to banking services"
+    },
+    "text_for_ai": "An on-campus ATM is available at RLJIT to provide students and staff with convenient access to banking services."
+  },
+  {
+    "category": "Facility",
+    "title": "Staff Quarters",
+    "details": {
+      "environment": "Peaceful and productive",
+      "amenities": "Furnished with essential amenities"
+    },
+    "text_for_ai": "RLJIT provides furnished staff quarters on campus, offering a peaceful living environment equipped with essential amenities."
+  },
+  {
+    "category": "Facility",
+    "title": "Dispensary (Healthcare)",
+    "details": {
+      "staff": "Qualified medical professionals",
+      "services": "First aid, essential medications, healthcare services"
+    },
+    "text_for_ai": "The campus houses a well-equipped dispensary with qualified medical professionals to provide first aid and essential healthcare services."
+  },
+  {
+    "category": "Facility",
+    "title": "Co-operative Society",
+    "details": {
+      "type": "Student-centric",
+      "offerings": "Affordable stationery, textbooks, academic resources"
+    },
+    "text_for_ai": "A student-centric co-operative society is available on campus, offering stationery, textbooks, and other academic resources at affordable rates."
+  },
+  {
+    "category": "Facility",
+    "title": "Kalamandir (Cultural Hub)",
+    "details": {
+      "purpose": "Platform for artistic expression and cultural events",
+      "vibe": "Vibrant cultural hub"
+    },
+    "text_for_ai": "Kalamandir is the institute's vibrant cultural hub, serving as a dedicated venue for artistic expression and cultural events."
+  },
+  {
+    "category": "Facility",
+    "title": "Gym",
+    "details": {
+      "availability": "24/7",
+      "access": "Students and staff"
+    },
+    "text_for_ai": "RLJIT provides a 24/7 gym facility on campus, accessible to both students and staff for fitness and wellness."
+  },
+  {
+    "category": "General Info",
+    "title": "R. L. Jalappa Institute of Technology (RLJIT) - Overview",
+    "details": {
+      "location": "Kodigehalli, Doddaballapur – 561203, Bengaluru Rural District, Karnataka, India",
+      "affiliation": "Visvesvaraya Technological University (VTU), Belagavi",
+      "approval": "AICTE, New Delhi",
+      "establishment": "2001",
+      "campus_size": "30 Acres",
+      "management": "Sri Devaraj Urs Educational Trust (SDUET)",
+      "accreditation": "NAAC Accredited (Cycle 1)"
+    },
+    "text_for_ai": "R. L. Jalappa Institute of Technology (RLJIT) was established in 2001 in Doddaballapur, Karnataka. [cite_start]It is affiliated with VTU, approved by AICTE, and managed by the Sri Devaraj Urs Educational Trust[cite: 27, 28]."
+  },
+  {
+    "category": "Academics",
+    "title": "Academic Programs & Performance",
+    "details": {
+      "ug_programs": "CSE, ECE, Mechanical, CSE (Data Science), CSE (AI & ML) ",
+      "pg_programs": "MBA ",
+      "student_strength": "931 students ",
+      "pass_percentage": "96.81% (latest completed academic year) ",
+      "curriculum": "Follows VTU curriculum with added value courses (NPTEL/MOOC/Coursera) [cite: 85, 94]"
+    },
+    "text_for_ai": "RLJIT offers 5 UG courses including emerging areas like AI&ML and Data Science, and 1 PG course (MBA).  The institute maintains a high pass percentage of 96.81% and integrates MOOCs into student learning."
+  },
+  {
+    "category": "Faculty",
+    "title": "Faculty Profile & Quality",
+    "details": {
+      "total_faculty": "73 (Full time in 2022-23) ",
+      "phd_holders": "25 (in 2022-23) ",
+      "student_teacher_ratio": "12.75:1 ",
+      "retention": "94.18% of sanctioned posts filled ",
+      "research_guides": "10 faculty recognized as Research Supervisors "
+    },
+    "text_for_ai": "The institute has a student-teacher ratio of 12.75:1 with around 73 full-time faculty members. Approximately 25 faculty members hold Ph.D. degrees, and 10 are recognized research supervisors[cite: 478, 609, 656]."
+  },
+  {
+    "category": "Infrastructure",
+    "title": "Campus Infrastructure & Learning Resources",
+    "details": {
+      "internet": "Wi-Fi enabled campus with 310 Mbps bandwidth ",
+      "library": "25,000 volumes, 3,200 Titles, 7,794 e-journals, Automated with Libsoft 12.0 ",
+      "classrooms": "25 ICT-enabled classrooms, 2 smart classrooms ",
+      "sports": "Cricket ground, Football field, Basketball court, Gym (Men & Women) ",
+      "hostels": "Separate hostels for Boys and Girls ",
+      "other_facilities": "Staff quarters (80 houses), Dispensary, ATM, Solar rooftop plant "
+    },
+    "text_for_ai": "RLJIT features a 30-acre campus with 310 Mbps Wi-Fi, a library with 25,000 volumes, and extensive sports facilities.It provides residential quarters for staff and hostels for students, along with green energy initiatives like solar power."
+  },
+  {
+    "category": "Research",
+    "title": "Research, Innovation & Extension",
+    "details": {
+      "research_centers": "3 VTU recognized centers (CSE, ECE, Mechanical) ",
+      "grants": "15.29 Lakhs received in last 5 years ",
+      "mous": "35 Functional MoUs with industries",
+      "publications": "112 research papers in SCI/Scopus/UGC journals ",
+      "incubation": "Incubation Centre (RLJBI) established with 4 start-ups ",
+      "patents": "11 published patents"
+    },
+    "text_for_ai": "The institute fosters research through 3 recognized centers, an Incubation Centre with startups, and 35 industrial MoUs.Faculty have published over 112 papers and secured 11 patents."
+  },
+  {
+    "category": "Student Support",
+    "title": "Student Support & Progression",
+    "details": {
+      "scholarships": "71.11% of students benefited from scholarships/freeships ",
+      "placement_rate": "Average placement rate around 65-67% ",
+      "mentoring": "Local Guardian (LG) Scheme (1:20-25 ratio) ",
+      "alumni": "Registered Association with 5000+ alumni network ",
+      "social_activities": "NSS, Youth Red Cross, Lions Club (200+ activities)"
+    },
+    "text_for_ai": "RLJIT supports students through the Local Guardian mentoring scheme and scholarships benefiting over 70% of students. It has a placement rate of over 65% and a strong alumni network of 5000+ members."
+  },
+  {
+    "category": "Values",
+    "title": "Institutional Values & Best Practices",
+    "details": {
+      "gender_equity": "36% female faculty, 47% female students, Women Empowerment Cell",
+      "green_initiatives": "Solar power, Rainwater harvesting, Sewage treatment plant, LED lighting ",
+      "social_responsibility": "Unnat Bharat Abhiyan (5 villages adopted), Blood donation camps ",
+      "best_practices": "Innovative Teaching & Learning Methods, Local Guardian (LG) Scheme "
+    },
+    "text_for_ai": "The institute promotes gender equity with significant female representation and active women's cells. Best practices include the Local Guardian mentoring scheme and community engagement through the adoption of 5 villages."
+  },
+  {
+    "category": "Admissions Data",
+    "title": "Student Enrollment & Diversity",
+    "details": {
+      "enrollment_2022_23": "315 Students admitted",
+      "enrollment_2021_22": "263 Students admitted",
+      "enrollment_2020_21": "133 Students admitted",
+      "enrollment_2019_20": "192 Students admitted",
+      "reservation_fulfillment": "82.45% of reserved category seats filled",
+      "student_gender_ratio": "Approx 47% female students (Current Year)",
+      "total_student_strength": "931 (2022-23)"
+    },
+    "text_for_ai": "In the academic year 2022-23, RLJIT admitted 315 students, bringing the total strength to 931. The institute has a healthy gender ratio with approximately 47% female students and has filled 82.45% of its reserved category seats."
+  },
+  {
+    "category": "Academic Performance",
+    "title": "Examination Results (Final Year)",
+    "details": {
+      "pass_percentage_2022_23": "96.93% (190 passed out of 196)",
+      "pass_percentage_2021_22": "99.26% (270 passed out of 272)",
+      "pass_percentage_2020_21": "96.15% (200 passed out of 208)",
+      "pass_percentage_overall": "96.81% average over 5 years",
+      "university_ranks": "Mechanical Engineering Dept secured 4th Rank in VTU"
+    },
+    "text_for_ai": "RLJIT consistently demonstrates strong academic performance with a 5-year average pass percentage of 96.81%. In 2021-22, the pass percentage reached an impressive 99.26%."
+  },
+  {
+    "category": "Placements",
+    "title": "Placement & Progression Statistics",
+    "details": {
+      "placements_2022_23": "137 students placed/progressed",
+      "placements_2021_22": "217 students placed/progressed",
+      "placements_2020_21": "172 students placed/progressed",
+      "placement_rate_average": "67.02% over last 5 years",
+      "competitive_exams": "7 students qualified in state/national exams (2022-23)"
+    },
+    "text_for_ai": "The institute has maintained an average placement and progression rate of 67.02% over the last five years. In the 2021-22 academic year, 217 students were successfully placed or moved to higher education."
+  },
+  {
+    "category": "Faculty",
+    "title": "Teacher Qualifications & Profile",
+    "details": {
+      "full_time_teachers": "73 (2022-23)",
+      "phd_holders": "25 (2022-23)",
+      "net_set_qualified": "20.59% of teachers hold NET/SET/Ph.D.",
+      "retention_rate": "94.18% against sanctioned posts",
+      "financial_support": "59 teachers provided support for conferences (2022-23)"
+    },
+    "text_for_ai": "As of 2022-23, RLJIT employs 73 full-time teachers, 25 of whom hold Ph.D. degrees. The institute supports faculty development, with 59 teachers receiving financial aid for conferences in the last year."
+  },
+  {
+    "category": "Financials",
+    "title": "Infrastructure & Maintenance Expenditure",
+    "details": {
+      "infra_budget_2022_23": "138.22 Lakhs (Infrastructure Augmentation)",
+      "maintenance_budget_2022_23": "152.65 Lakhs (Maintenance of facilities)",
+      "total_expenditure_excluding_salary": "290.87 Lakhs (2022-23)",
+      "library_spend_2022_23": "₹ 6,29,524 (Books & Journals)"
+    },
+    "text_for_ai": "In 2022-23, the institute invested significantly in growth, spending 138.22 Lakhs on infrastructure augmentation and 152.65 Lakhs on maintenance. The annual library expenditure for books and journals was over 6 Lakhs."
+  },
+  {
+    "category": "Research",
+    "title": "Research Output & Grants",
+    "details": {
+      "grants_received": "15 Lakhs (2022-23)",
+      "papers_published_2022_23": "35 Research Papers in UGC Journals",
+      "papers_per_teacher": "1.14 (Average)",
+      "patents": "11 Published Patents",
+      "workshops_conducted": "23 workshops on IPR/Research (2022-23)"
+    },
+    "text_for_ai": "Research activity is robust with 15 Lakhs in grants received in 2022-23 and 35 papers published in UGC journals. The faculty have also published 11 patents and conducted 23 research-related workshops recently."
+  },
+  {
+    "category": "Extension Activities",
+    "title": "Community & Social Outreach",
+    "details": {
+      "total_activities": "44 extension activities in 5 years",
+      "villages_adopted": "5 Villages (Tubagere, Alahalli, Jakkasandra, Menasi, Nagasandra)",
+      "awards": "45+ recognitions received for social activities",
+      "key_programs": "Blood Donation, Tree Plantation, Women's Health Awareness, Solar Lamp Assembly"
+    },
+    "text_for_ai": "RLJIT is deeply connected to the community through the Unnat Bharat Abhiyan, adopting 5 villages. They have conducted 44 extension activities including health camps and environmental drives, earning over 45 awards."
+  },
+  {
+    "category": "IT Infrastructure",
+    "title": "Digital Assets & Network Capabilities",
+    "details": {
+      "internet_bandwidth": "310 Mbps ",
+      "total_computers": "510 Systems ",
+      "student_computer_ratio": "2.12 (Data for latest academic year) ",
+      "network_topology": "Star Topology with 20 Port Switches and 72 Dual Band Access Points ",
+      "software_tools": "Libsoft 12.0 (Library), Drillbit (Plagiarism), Knimbus (Remote Access) "
+    },
+    "text_for_ai": "RLJIT maintains a robust IT infrastructure with 510 computers and a high-speed internet connection of 310 Mbps[cite: 1033, 1035]. The network utilizes a Star topology, and the institute employs specialized software like Drillbit for plagiarism checking and Libsoft for library management[cite: 971, 954]."
+  },
+  {
+    "category": "Governance",
+    "title": "Leadership, Policies & Staff Welfare",
+    "details": {
+      "governance_structure": "Decentralized system with Governing Council, Institute Council, and IQAC",
+      "e_governance_areas": "Administration, Finance & Accounts, Student Admission & Support, Examination",
+      "staff_welfare": "EPF, Gratuity, Group Insurance, 25-40% Fee concession for wards, 50-100% Medical concession",
+      "performance_appraisal": "Annual self-appraisal evaluated by HOD and Principal based on results, feedback, and research"
+    },
+    "text_for_ai": "The institute operates under a decentralized governance structure including a Governing Council and IQAC. Staff welfare measures are comprehensive, offering EPF, insurance, and significant fee concessions for employees' children and medical treatments."
+  },
+  {
+    "category": "Distinctiveness",
+    "title": "Institutional Distinctiveness & Focus",
+    "details": {
+      "primary_focus": "Serving rural and economically backward students (approx. 75% of intake)",
+      "community_arm": "Lions Club of Doddaballapura RL Jalappa Institutions",
+      "unique_approach": "Holistic development through 'Learning by Doing' and industry-specific training",
+      "health_services": "Mega annual health camps and subsidized treatment at Sri R L Jalappa Hospital"
+    },
+    "text_for_ai": "A key distinctive feature of RLJIT is its commitment to rural education, with 75% of students coming from rural backgrounds. The institute integrates community service through its own Lions Club and provides subsidized healthcare to staff and students."
+  },
+  {
+    "category": "Best Practices",
+    "title": "Key Institutional Best Practices",
+    "details": {
+      "practice_1_title": "Innovative Teaching and Learning Methods",
+      "practice_1_details": "Use of ICT tools, Flipped classes, Role play, and Project-based learning to enhance engagement",
+      "practice_2_title": "Local Guardian (LG) Scheme",
+      "practice_2_details": "Mentoring ratio of 1:20; weekly counseling meetings to monitor academic and personal progress",
+      "outcome": "Reduced failure rates and dropouts; improved student behavior and parent satisfaction"
+    },
+    "text_for_ai": "RLJIT implements the 'Local Guardian Scheme,' assigning one faculty mentor to every 20 students to monitor progress and reduce dropouts. Additionally, it employs innovative teaching methods like project-based learning and ICT integration to improve student outcomes."
+  },
+  {
+    "category": "Quality Assurance",
+    "title": "IQAC & Feedback Mechanisms",
+    "details": {
+      "iqac_establishment": "Established on 02/08/2021",
+      "audit_process": "Regular Academic and Administrative Audits (AAA) by internal and external teams",
+      "feedback_sources": "Students, Teachers, Employers, Alumni",
+      "feedback_action": "Analysis used for curriculum enrichment and faculty appraisal"
+    },
+    "text_for_ai": "The Internal Quality Assurance Cell (IQAC), established in 2021, drives quality through regular Academic and Administrative Audits. Feedback is actively collected from all stakeholders to refine the curriculum and administrative processes."
+  },
+  {
+    "category": "Environment",
+    "title": "Green Campus & Sustainability Initiatives",
+    "details": {
+      "energy_sources": "Solar rooftop plant installed at ECE block, LED lights used",
+      "water_conservation": "Rainwater harvesting facilities and sewage water treatment plant",
+      "audits": "Regular Green Audit, Energy Audit, and Environmental Audit undertaken",
+      "waste_management": "Management of degradable and non-degradable waste implemented",
+      "landscaping": "Campus maintained with full greenery and 5000+ trees"
+    },
+    "text_for_ai": "RLJIT promotes sustainability through solar rooftop plants, rainwater harvesting, and sewage treatment plants. The campus conducts regular Green and Energy audits and maintains a lush environment with over 5000 trees."
+  },
+  {
+    "category": "Faculty Empowerment",
+    "title": "Professional Development & Welfare Schemes",
+    "details": {
+      "fdp_participation": "62.98% of staff participated in FDPs/Administrative training",
+      "financial_support": "55% of teachers provided financial support for conferences/memberships",
+      "welfare_benefits": "EPF, Gratuity, Group Insurance, Maternity Leave (6 months), Earned/Casual Leave",
+      "concessions": "25-40% fee concession for wards; free local transport and dispensary facility"
+    },
+    "text_for_ai": "The institute supports faculty growth, with 62.98% participating in FDPs and 55% receiving financial aid for conferences. Welfare measures include EPF, Group Insurance, maternity leave, and fee concessions for employees' children."
+  },
+  {
+    "category": "Alumni",
+    "title": "Alumni Association & Engagement",
+    "details": {
+      "registration": "Registered in 2010 as 'R.L.J.I.T Alumni Association'",
+      "network_strength": "5000+ registered alumni",
+      "key_events": "Global Alumni Meet held annually on December 25th",
+      "contributions": "Scholarships, RO Drinking water plant donation, mock interviews, and career guidance",
+      "entrepreneurship": "Alumni entrepreneurs mentor students on starting new ventures"
+    },
+    "text_for_ai": "Registered in 2010, the Alumni Association connects over 5000 members and holds a Global Alumni Meet every December 25th. Alumni actively contribute through scholarships, infrastructure donations, and student mentorship."
+  },
+  {
+    "category": "Student Activities",
+    "title": "Cultural & Sports Achievements",
+    "details": {
+      "cultural_fest": "'Santhasa' - Mega annual cultural fest with 2000+ gathering",
+      "ethnic_day": "Celebrated annually to revive respect for culture and history",
+      "sports_awards": "42 awards/medals for outstanding performance in last 5 years",
+      "participation": "Average of 36 sports/cultural programs participated in annually"
+    },
+    "text_for_ai": "Student life is vibrant with 'Santhasa', a mega cultural fest attracting over 2000 people, and an annual Ethnic Day. Students have won 42 awards in sports and cultural activities over the last five years."
+  },
+  {
+    "category": "Evaluation",
+    "title": "Examination & Assessment System",
+    "details": {
+      "cie_structure": "3 Internal Assessment tests + 3 Assignments/Quizzes/Seminars",
+      "weightage": "Varies by scheme (e.g., 2022 scheme: 25 marks CIE + 25 marks Assignment)",
+      "grievance_redressal": "Complaints addressed by HoD within 3 days",
+      "transparency": "Bluebooks shown to students; revaluation and photocopy options available",
+      "outcome_calculation": "90% Direct Attainment (CIE+SEE) + 10% Indirect Attainment (Surveys)"
+    },
+    "text_for_ai": "The evaluation system includes three Continuous Internal Evaluation (CIE) tests and assignments. The process is transparent, allowing students to view evaluated booklets, with grievances resolved within three days."
+  },
+  {
+    "category": "NEP Implementation",
+    "title": "National Education Policy (NEP) 2020 Initiatives",
+    "details": {
+      "multidisciplinary_approach": "Curriculum integrates open electives, SEC, and AEC; focuses on holistic development",
+      "academic_bank_of_credits_abc": "Students registered with ABC and IDs generated for credit transfer",
+      "skill_development": "Tie-up with ATOMS training partner; vocational education emphasized",
+      "indian_knowledge_system_iks": "Mandatory credit courses in 'Samskrutika/Balake Kannada'; translation activities encouraged",
+      "outcome_based_education": "Strict adherence to NBA/NAAC norms with defined POs, COs, and PSOs",
+      "online_education": "Usage of SWAYAM, NPTEL, and VMEDULIFE LMS platform"
+    },
+    "text_for_ai": "RLJIT has actively implemented NEP 2020 by registering students for the Academic Bank of Credits (ABC) and integrating the Indian Knowledge System through mandatory Kannada courses. The curriculum emphasizes multidisciplinary learning and skill development through partnerships like ATOMS."
+  },
+  {
+    "category": "Civic Responsibility",
+    "title": "Electoral Literacy Club (ELC) & Initiatives",
+    "details": {
+      "establishment": "Established in 2018, chaired by the Principal",
+      "objectives": "Sensitizing students on democratic rights and voting",
+      "activities": "Voter registration drives, awareness campaigns, poster competitions",
+      "community_support": "Assisting senior citizens and disabled persons during elections",
+      "survey": "Institution-level survey conducted to evaluate electoral awareness"
+    },
+    "text_for_ai": "The Electoral Literacy Club (ELC), established in 2018, actively engages students in voter registration and awareness campaigns. Chaired by the Principal, the club also assists the community, including disabled voters, during elections."
+  },
+  {
+    "category": "Gender Equity",
+    "title": "Gender Sensitization & Women's Safety",
+    "details": {
+      "gender_ratio": "36% female faculty, 47% female students (Current Year)",
+      "safety_measures": "212 CCTV cameras, security staff, ID card enforcement",
+      "facilities": "Separate common rooms for ladies and gents, napkin vending machines",
+      "welfare": "6 months maternity leave, special leave during menstrual period",
+      "committees": "Internal Complaints Committee (ICC), Anti-Sexual Harassment Cell"
+    },
+    "text_for_ai": "RLJIT promotes gender equity with a strong female presence (47% students) and specific welfare measures like 6 months of maternity leave. Safety is prioritized with 212 CCTV cameras and dedicated common rooms."
+  },
+  {
+    "category": "Library",
+    "title": "Library Collections & Specialized Services",
+    "details": {
+      "sc_st_book_bank": "2,863 books dedicated for SC/ST students",
+      "rare_books": "726 volumes including encyclopedias and handbooks",
+      "digital_library": "Equipped with 20 computers and high-speed internet",
+      "daily_usage": "Average of 407 faculty and students visit per day",
+      "expenditure_2022_23": "₹ 6,29,524 spent on books and e-journals"
+    },
+    "text_for_ai": "The library offers specialized resources, including a Book Bank with over 2,800 books for SC/ST students and a collection of rare encyclopedias. It sees high engagement with an average of 407 daily visitors and features a fully equipped digital library."
+  },
+  {
+    "category": "Feedback",
+    "title": "Stakeholder Feedback System",
+    "details": {
+      "mechanism": "360-degree feedback collected from students, teachers, employers, and alumni",
+      "surveys": "Course End Survey (CES) and Program Exit Survey (PES) conducted",
+      "action_taken": "Analysis reports and action taken reports are hosted on the institutional website",
+      "impact": "Feedback leads to curriculum enrichment and improved teaching-learning processes"
+    },
+    "text_for_ai": "The institute employs a robust 360-degree feedback system involving all stakeholders. Data from Course End and Program Exit surveys are analyzed to drive continuous improvements in the curriculum and teaching methods."
+  },
+  {
+    "category": "Academics",
+    "title": "Course Outcomes (CO) & Program Outcomes (PO)",
+    "details": {
+      "framework": "Outcome-Based Education (OBE) following NBA/NAAC norms",
+      "communication_channels": "Website, Department Offices, Laboratories, Classrooms, Lab Manuals, Attendance Registers",
+      "assessment_weightage": "90% Direct Attainment (Exams/Assignments) + 10% Indirect Attainment (Surveys)",
+      "definitions": "COs describe essential disciplinary knowledge; POs describe professional accomplishments"
+    },
+    "text_for_ai": "RLJIT strictly follows Outcome-Based Education (OBE). Course Outcomes (COs) and Program Outcomes (POs) are widely displayed across campus, including in classrooms, labs, and attendance registers. Attainment is calculated using 90% direct assessment and 10% indirect assessment."
+  },
+  {
+    "category": "Infrastructure",
+    "title": "Maintenance & Upkeep Policy",
+    "details": {
+      "maintenance_team": "Headed by Assistant Executive Engineer (AEE)",
+      "schedule": "Major works during semester vacations; minor works as needed",
+      "expenditure_2022_23": "152.65 Lakhs incurred on maintenance",
+      "scope": "Includes buildings, classrooms, seminar halls, laboratories, and campus greenery"
+    },
+    "text_for_ai": "The institute has a dedicated maintenance team led by an Assistant Executive Engineer. In the 2022-23 academic year, 152.65 Lakhs was spent on maintaining physical and academic support facilities. Major maintenance works are scheduled during semester vacations."
+  },
+  {
+    "category": "Innovation",
+    "title": "Innovation Ecosystem & Startups",
+    "details": {
+      "incubation_center": "RLJBI (Business Incubator) established in 2023",
+      "current_status": "Started with 4 start-ups",
+      "intellectual_property": "11 published patents",
+      "funding_sources": "Grants received from VGST, KSCST, VTU, and ANVESHANA",
+      "research_output": "112 research papers published in reputed journals"
+    },
+    "text_for_ai": "RLJIT established its Business Incubator (RLJBI) in 2023 and currently supports 4 start-ups. The innovation ecosystem has produced 11 published patents and secured funding from agencies like VGST and KSCST."
+  },
+  {
+    "category": "Teaching & Learning",
+    "title": "Advanced Teaching Methodologies",
+    "details": {
+      "methods": "Experiential learning, Project-based learning, Role play, Flipped classes",
+      "ict_tools": "LCD projectors in all classrooms, Language Lab, 2 Smart classrooms",
+      "student_centric": "Participative learning through group discussions and seminars",
+      "aice_activity_points": "Points awarded for technical, social, cultural, and leadership activities"
+    },
+    "text_for_ai": "To enhance learning, faculty employ diverse methodologies such as flipped classes, experiential learning, and project-based learning. The campus is equipped with ICT tools, including LCD projectors in all classrooms and specialized smart classrooms."
+  },
+  {
+    "category": "Student Support",
+    "title": "Scholarship Trends (5 Years)",
+    "details": {
+      "beneficiaries_2022_23": "732 Students",
+      "beneficiaries_2021_22": "626 Students",
+      "beneficiaries_2020_21": "628 Students",
+      "beneficiaries_2019_20": "698 Students",
+      "policy": "Well-established Scholarship Monitoring System for government and non-government grants"
+    },
+    "text_for_ai": "RLJIT has a consistent track record of providing financial support, with 732 students receiving scholarships in the 2022-23 academic year. A dedicated Scholarship Monitoring System assists students in securing grants."
+  },
+  {
+    "category": "Industry Interface",
+    "title": "MoUs & Collaborative Activities",
+    "details": {
+      "mou_count": "35 Functional MoUs with industries",
+      "purpose": "Internships, on-the-job training, project work, and student exchange",
+      "industry_interaction": "Guest lectures from industry experts and alumni",
+      "outcome": "Bridging the gap between industry and academia"
+    },
+    "text_for_ai": "RLJIT has established 35 functional MoUs with various industries to facilitate internships, field trips, and collaborative research. These partnerships play a crucial role in bridging the gap between academic curriculum and industry requirements."
+  },
+  {
+    "category": "Student Development",
+    "title": "Skill Enhancement Initiatives",
+    "details": {
+      "soft_skills": "Training programs to improve interpersonal and organizational skills",
+      "communication": "Language lab with interactive software for communication skills",
+      "life_skills": "Regular Yoga sessions for physical and mental well-being",
+      "ict_skills": "Computing skills enhancement programs and training"
+    },
+    "text_for_ai": "The institute organizes comprehensive capacity development programs focusing on soft skills, language communication, and ICT computing skills. Additionally, regular yoga sessions are conducted to ensure the physical and mental well-being of students."
+  },
+  {
+    "category": "Finance",
+    "title": "Resource Mobilization & Audits",
+    "details": {
+      "audit_system": "Regular internal and external financial audits",
+      "auditor": "Narayana Shetty RVM and Co. (Authorized Statutory Auditor)",
+      "transparency": "Computerized procedures with payments via RTGS/NEFT/Cheque",
+      "resource_utilization": "Optimally used for infrastructure, salary, and student support"
+    },
+    "text_for_ai": "RLJIT maintains strict financial discipline with regular audits conducted by Narayana Shetty RVM and Co. Financial transparency is ensured through computerized procedures and digital payment modes like RTGS and NEFT."
+  },
+  {
+    "category": "Distinctiveness",
+    "title": "Empowerment of Rural Students",
+    "details": {
+      "demographic": "Approx. 75% of students are from rural/economically backward backgrounds",
+      "focus": "Making first-generation learners industry-ready",
+      "support": "Personalized training in resume building, aptitude, and interview skills",
+      "impact": "Transforming individuals to reach full potential and compete globally"
+    },
+    "text_for_ai": "A key distinctive feature of RLJIT is its focus on empowering rural students, who make up 75% of the intake. The institute provides specialized training in soft skills and career preparation to help these first-generation learners compete in the global market."
+  },
+  {
+    "category": "Social Responsibility",
+    "title": "Lions Club & Community Health",
+    "details": {
+      "organization": "Campus Lions Club of Doddaballapura RL Jalappa Institutions",
+      "health_camps": "Blood Donation, Diabetes Checkup, Eye Screening, Dental Screening",
+      "special_programs": "Free Foot Pulse Therapy Camp, Cancer Awareness Program",
+      "frequency": "More than 100 activities conducted regularly"
+    },
+    "text_for_ai": "Through its on-campus Lions Club, RLJIT conducts over 100 social activities regularly, including blood donation drives, free health checkups, and specialized camps like cancer awareness and foot pulse therapy."
+  },
+  {
+    "category": "Infrastructure",
+    "title": "Sports & Cultural Facilities",
+    "details": {
+      "auditorium": "Open-air auditorium with a seating capacity of 3000",
+      "cultural_spaces": "Kalamandir and seminar halls for events",
+      "sports_facilities": "Cricket ground, Football field, Basketball court, Indoor games",
+      "wellness": "Separate Yoga center for meditation and yoga practices"
+    },
+    "text_for_ai": "The campus features a massive open-air auditorium with a 3000-seat capacity for cultural gatherings. It also boasts extensive sports facilities, including grounds for cricket and football, and a dedicated Yoga center."
+  },
+  {
+    "category": "Achievements",
+    "title": "Faculty & Student Awards",
+    "details": {
+      "faculty_award_1": "Dr. M. Sreenivasa Reddy - 'Best Teacher Award 2023'",
+      "faculty_award_2": "Prof. Sunil Kumar K - 'Dr. APJ Abdul Kalam Lifetime Achievement National Award'",
+      "student_awards": "Best project presentation award in State Level Student Project Exhibition (SPEC2023)",
+      "total_recognitions": "45+ recognitions received from various agencies"
+    },
+    "text_for_ai": "RLJIT faculty have received prestigious honors, such as the 'Best Teacher Award 2023' awarded to Dr. M. Sreenivasa Reddy. Students also excel, recently winning the best project presentation at the state-level SPEC2023."
+  },
+  {
+    "category": "Curriculum",
+    "title": "Values & Ethics Integration",
+    "details": {
+      "mandatory_courses": "Universal Human Values, Constitution of India, Social Connect & Responsibility",
+      "curriculum_percentage": "7.5% of curriculum dedicated to professional ethics and human values",
+      "environmental_studies": "Compulsory course to create awareness on ecological issues",
+      "impact": "40 faculty and 800 students attended Universal Human Values program"
+    },
+    "text_for_ai": "The curriculum mandates that 7.5% of study focuses on ethics and values. Courses like 'Universal Human Values' and 'Constitution of India' are compulsory to ensure holistic student development."
+  },
+  {
+    "category": "Examination",
+    "title": "Security & Reforms",
+    "details": {
+      "delivery_system": "Question Paper Delivery System (QPDS) for confidential downloading",
+      "monitoring": "Squad team nominated by University for surprise visits",
+      "supervision": "External Deputy Chief appointed from other affiliated institutes",
+      "transparency": "Students can request revaluation and photocopies of answer sheets"
+    },
+    "text_for_ai": "To ensure integrity, the institute uses a secure Question Paper Delivery System (QPDS). Examinations are strictly monitored by University-appointed squad teams and external supervisors."
+  },
+  {
+    "category": "Community Service",
+    "title": "Unnat Bharat Abhiyan (Specific Activities)",
+    "details": {
+      "water_testing": "Drinking water samples from adopted villages tested for pH and TDS",
+      "workshops": "Solar Study Lamp Assembly workshop with IIT Bombay",
+      "projects": "Waste-to-bricks construction and solar water purification systems",
+      "surveys": "Village and Household surveys conducted for development challenges"
+    },
+    "text_for_ai": "Under the Unnat Bharat Abhiyan, students test drinking water quality for adopted villages and participate in workshops like Solar Study Lamp Assembly in association with IIT Bombay."
+  },
+  {
+    "category": "Student Profile",
+    "title": "Geographic Diversity (Admission Data)",
+    "details": {
+      "ug_male_state": "89 Students from Karnataka",
+      "ug_male_other_states": "114 Students from Other States",
+      "ug_female_state": "80 Students from Karnataka",
+      "ug_female_other_states": "51 Students from Other States",
+      "total_ug_enrollment_year": "334 Students (Current Year Data)"
+    },
+    "text_for_ai": "RLJIT attracts a diverse student body from across India. Data from the current academic year shows that in the undergraduate program, a significant number of male students (114) hail from states outside Karnataka."
+  },
+  {
+    "category": "Research",
+    "title": "Funding Agencies & Publications",
+    "details": {
+      "funding_bodies": "VGST, KSCST, VTU, ANVESHANA",
+      "publication_databases": "SCI, Scopus, UGC CARE",
+      "faculty_profiles": "Google Scholar, Scopus, and VIDWAN profiles maintained",
+      "projects": "Students encouraged to propose ideas to KSCST and Science Fairs"
+    },
+    "text_for_ai": "Research at RLJIT is supported by grants from agencies like VGST, KSCST, and VTU. Faculty actively publish in SCI and Scopus indexed journals and maintain profiles on platforms like VIDWAN."
+  },
+  {
+    "category": "Infrastructure",
+    "title": "Power & Sustainability Features",
+    "details": {
+      "solar_power": "Solar rooftop plant installed at ECE department block",
+      "power_backup": "24x7 power backup for computer laboratories",
+      "internet": "310 Mbps Internet facility for faculty and campus",
+      "safety": "Fire Extinguishers and First Aid boxes in all laboratories"
+    },
+    "text_for_ai": "The campus infrastructure supports sustainability and continuous learning with a solar rooftop plant on the ECE block and 24x7 power backup for computer labs. Faculty are facilitated with high-speed 310 Mbps internet."
+  },
+  {
+    "category": "Library",
+    "title": "Digital Resources & Access",
+    "details": {
+      "publishers_accessed": "Elsevier, Springer, IEEE-ASPP, Taylor & Francis, Emerald, Pro-quest",
+      "remote_access_platform": "Knimbus (https://rljitd.knimbus.com)",
+      "inter_library_loan": "Available through DELNET",
+      "digital_library_capacity": "20 computers available for usage"
+    },
+    "text_for_ai": "The library provides access to premium journals from publishers like Elsevier, Springer, and IEEE. Students can access these resources remotely via the Knimbus platform or utilize the inter-library loan facility through DELNET."
+  },
+  {
+    "category": "Administration",
+    "title": "IQAC Composition & Objectives",
+    "details": {
+      "chairperson": "Principal",
+      "coordinator": "Senior Faculty",
+      "members": "Management Rep, Vice-Principal, Industry Rep, Alumni, Students",
+      "objective": "Internalization of quality culture and institutionalization of best practices"
+    },
+    "text_for_ai": "The Internal Quality Assurance Cell (IQAC) is chaired by the Principal and includes representatives from management, industry, alumni, and the student body. Its primary objective is to institutionalize best practices and enhance the quality culture of the institute."
+  },
+  {
+    "category": "Strategic Analysis",
+    "title": "Institutional Strengths (SWOC)",
+    "details": {
+      "location": "Near Silicon Valley (Bengaluru); Pollution-free campus",
+      "academics": "Content delivered beyond syllabus; 35 functional MoUs",
+      "research": "3 R&D Centers; 11 published patents",
+      "infrastructure": "ICT-enabled classrooms; fully equipped labs",
+      "community": "Strong Alumni network and Lions Club societal activities"
+    },
+    "text_for_ai": "RLJIT's primary strengths include its strategic location near Bengaluru, strong industry connections with 35 MoUs, and a pollution-free campus with ICT-enabled infrastructure. The institute also benefits from a dedicated faculty team and active R&D centers."
+  },
+  {
+    "category": "Strategic Analysis",
+    "title": "Weaknesses & Challenges (SWOC)",
+    "details": {
+      "weaknesses": "Lack of autonomy; fewer University ranks; limited DST sponsored projects",
+      "challenges": "Improving communication skills of rural students; competition from private universities",
+      "nep_challenge": "Complete implementation of NEP-2020 in the present scenario",
+      "entrepreneurship": "Need to encourage more entrepreneurs in core sectors"
+    },
+    "text_for_ai": "The institute identifies challenges such as the need for greater autonomy, increasing the number of university ranks, and improving the communication skills of its predominantly rural student base. It also faces competition from deemed and private universities."
+  },
+  {
+    "category": "Staff Welfare",
+    "title": "Comprehensive Leave Benefits",
+    "details": {
+      "standard_leaves": "Casual Leave, Earned Leave, Restricted Holidays",
+      "special_leaves": "Maternity Leave (6 months), Study Leave, On Official Duty (OOD)",
+      "health_leaves": "COVID leaves; Special leave for women during menstrual period",
+      "contract_leaves": "Specific leave provisions for employees on fixed-term contracts"
+    },
+    "text_for_ai": "RLJIT offers comprehensive leave benefits to its staff, including Casual, Earned, and Study leaves. Notably, it provides 6 months of Maternity leave and has introduced special leave for women during their menstrual period."
+  },
+  {
+    "category": "Administration",
+    "title": "Service Rules & Recruitment",
+    "details": {
+      "governing_body": "Sri Devaraj Urs Educational Trust (SDUET)",
+      "manual": "Service rules manual updated per AICTE/Government norms",
+      "transparency": "Defined policies for recruitment and performance appraisal",
+      "handbook": "Employee handbook summarizes HR policies and practices"
+    },
+    "text_for_ai": "The institute operates under clearly defined service rules mandated by the Sri Devaraj Urs Educational Trust. An employee handbook outlines transparent policies for recruitment and appraisals, adhering to AICTE and government norms."
+  },
+  {
+    "category": "Student Representation",
+    "title": "Student Council & Leadership",
+    "details": {
+      "class_representation": "Male and Female representatives (Class Rep & Secretary) for every class",
+      "committee_involvement": "Students included in IQAC, Anti-ragging, and Cultural committees",
+      "leadership": "Opportunities to organize fests like 'Santhasa' and 'Ethnic Day'",
+      "gender_equity": "Equal representation ensured in leadership roles"
+    },
+    "text_for_ai": "RLJIT ensures active student representation by appointing male and female class representatives for every batch. Students are also members of key administrative committees like the IQAC and Anti-ragging committee, fostering leadership skills."
+  },
+  {
+    "category": "Best Practices",
+    "title": "Evidence of Success (LG Scheme)",
+    "details": {
+      "academic_impact": "Reduction in failure rates and student dropouts",
+      "behavioral_impact": "Significant improvement in professional behavior on campus",
+      "parental_feedback": "Positive response regarding the monitoring of their ward's progress",
+      "monitoring": "Weekly counseling sessions recorded by mentors"
+    },
+    "text_for_ai": "The Local Guardian (LG) Scheme has shown tangible success, evidenced by reduced dropout rates and improved academic performance. Parents have expressed high satisfaction with the system, which includes weekly counseling and performance monitoring."
+  },
+  {
+    "category": "Academic Enrichment",
+    "title": "Certificate & Value Added Courses",
+    "details": {
+      "courses_offered": "33 Certificate/Value added courses offered ",
+      "enrollment_percentage": "53.3% of students enrolled in these courses ",
+      "platforms": "MOOCs, SWAYAM, NPTEL utilized ",
+      "enrollment_trend": "Increased from 640 students (2018-19) to 864 students (2022-23)"
+    },
+    "text_for_ai": "RLJIT emphasizes holistic education through value-added courses. Over the last five years, 33 such courses were offered, with a significant enrollment rate of 53.3%. Platforms like SWAYAM and NPTEL are actively used to supplement the curriculum."
+  },
+  {
+    "category": "Infrastructure",
+    "title": "Computing & Digital Ratios",
+    "details": {
+      "student_computer_ratio": "2.12 : 1 (Data for latest academic year) ",
+      "available_computers": "440 computers available for student usage ",
+      "internet_access": "Wi-Fi enabled campus with 310 Mbps bandwidth ",
+      "language_lab": "Internet-enabled lab with interactive instructor software "
+    },
+    "text_for_ai": "The institute maintains a healthy student-to-computer ratio of 2.12, with 440 systems dedicated to student use.The campus is supported by a 310 Mbps internet connection and features a specialized language lab for communication skills training."
+  },
+  {
+    "category": "Faculty",
+    "title": "Faculty Designation Distribution",
+    "details": {
+     "professors": "8 Professors recruited ",
+     "associate_professors": "10 Associate Professors recruited ",
+     "assistant_professors": "55 Assistant Professors recruited ",
+     "total_sanctioned": "All sanctioned posts (8 Professors, 10 Associates, 55 Assistants) are filled "
+    },
+    "text_for_ai": "The faculty hierarchy at RLJIT is well-structured and fully staffed against sanctioned posts.The team consists of 8 Professors, 10 Associate Professors, and 55 Assistant Professors, ensuring a balanced academic environment"
+  },
+  {
+    "category": "Quality Assurance",
+    "title": "IQAC Outcomes & Initiatives",
+    "details": {
+      "curriculum_enrichment": "Exit surveys helped in enriching curriculum as per present-day needs ",
+      "placement_improvement": "Inclusion of value-added courses led to better placements ",
+      "recognition": "Initiated 'Best Faculty' and 'Best Department' recognition awards ",
+      "research_incentives": " Introduced research incentives for faculties ",
+      "orientation": "Orientation programs initiated for new syllabus/courses "
+    },
+    "text_for_ai": "The IQAC has driven tangible improvements, including curriculum enrichment based on exit surveys and better placements through value-added courses.It has also institutionalized 'Best Faculty' awards and research incentives to motivate staff."
+  },
+  {
+    "category": "Future Outlook",
+    "title": "Conclusion & Strategic Vision",
+    "details": {
+      "core_philosophy": "'Learning by Doing' and 'Learning to Learn themselves'",
+      "future_goal": "To become an education, research, and consultancy hub ",
+      "culture": "Creating an agile culture of Continuous Learning and Collaboration ",
+      "education_model": "Outcome Based Education (OBE) supplemented with project-based learning "
+    },
+    "text_for_ai": "RLJIT aims to evolve into a central hub for education, research, and consultancy. The institute's philosophy centers on 'Learning by Doing,' blending Outcome Based Education with project-based learning to foster an agile culture of continuous improvement."
+  },
+  {
+    "category": "Directory",
+    "title": "Specific Contact Details (From PDF Profile)",
+    "details": {
+      "principal": "Dr. P. Vijayakarthik | Ph: 080-27625381, 7259893093 | Email: principal@rljit.in",
+      "iqac_coordinator": "Dr. Manjunatha B.N. | Ph: 080-27626800, 9482397464 | Email: manjunathabn@rljit.in",
+      "fax": "080-27625380",
+      "website": "www.rljit.in"
+    },
+    "text_for_ai": "The document lists specific contact details: Principal Dr. P. Vijayakarthik (7259893093) and IQAC Coordinator Dr. Manjunatha B.N. (9482397464). The official fax number is 080-27625380."
+  },
+  {
+    "category": "Innovation",
+    "title": "Incubated Startups (Specific Names)",
+    "details": {
+      "startup_1": "Big Line Infotech Pvt. Ltd.",
+      "startup_2": "Sigma Networks Technology",
+      "startup_3": "Forever Frozencomp Innovations Pvt. Ltd.",
+      "total_startups": "4 Startups initiated"
+    },
+    "text_for_ai": "The PDF explicitly names the startups incubated at RLJIT: Big Line Infotech Pvt. Ltd., Sigma Networks Technology, and Forever Frozencomp Innovations Pvt. Ltd."
+  },
+  {
+    "category": "Governance",
+    "title": "Full List of Institutional Committees",
+    "details": {
+      "academic": "Program Assessment Committee (PAC), Timetable Committee, NEP Cell, IQAC",
+      "welfare_grievance": "Internal Complaint Committee, Grievance Redressal Committee, SC/ST & OBC Committee, Anti-Ragging Committee",
+      "co_curricular": "Cultural Committee, NSS Committee, Alumni Association, Website Committee",
+      "administrative": "Governing Council, Institute Council, Discipline Committee (Headed by Vice Principal)"
+    },
+    "text_for_ai": "RLJIT operates through a wide network of specific committees including the Program Assessment Committee (PAC), NEP Cell, Internal Complaint Committee, and the Discipline Committee headed by the Vice Principal."
+  },
+  {
+    "category": "Staff Welfare",
+    "title": "Detailed Leave Policy List",
+    "details": {
+      "regular_leaves": "Casual Leave, Earned Leave, Restricted Holidays",
+      "special_leaves": "Maternity Leave (6 months), Study Leave, On Official Duty (OOD) Leave",
+      "health_emergency": "COVID Leaves, Special Leave for Women (Menstrual Period)",
+      "contractual": "Leaves for Fixed Term Contract Employees, Probationary Employees, Post-Retirement Engagement"
+    },
+    "text_for_ai": "The leave policy is highly detailed, covering standard leaves plus specific categories like COVID leaves, Study leaves, and special leave for women during their menstrual period."
+  },
+  {
+    "category": "Academics",
+    "title": "Specific Project Topics",
+    "details": {
+      "software_projects": "Communication Theory, Python, CCN, Data Structures, AI/ML",
+      "mechanical_projects": "Thermodynamics, Fluid Mechanics, Design of Machine Elements",
+      "social_projects": "Waste-to-bricks, Solar water purification, Rainwater harvesting, Organic farming awareness"
+    },
+    "text_for_ai": "Student projects cover diverse technical and social topics. Technical projects span AI/ML and Thermodynamics, while socially relevant projects include converting waste to bricks and developing solar water purification systems."
+  },
+  {
+    "category": "Directory",
+    "title": "Contact Numbers & Email IDs",
+    "details": {
+      "principal": "Name: Dr. P. Vijayakarthik | Telephone: 080-27625381 | Mobile: 7259893093 | Fax: 080-27625380 | Email: principal@rljit.in",
+      "iqac_coordinator": "Name: Manjunatha B.N. | Telephone: 080-27626800 | Mobile: 9482397464 | Fax: 080-27625380 | Email: manjunathabn@rljit.in"
+    },
+    "text_for_ai": "The document lists specific contact details for the Principal, Dr. P. Vijayakarthik (Mobile: 7259893093, Email: principal@rljit.in) and the IQAC Coordinator, Manjunatha B.N. (Mobile: 9482397464, Email: manjunathabn@rljit.in)."
+  },
+
+  {
+    "category": "Academics",
+    "title": "HOD - Computer Science (CSE)",
+    "location": "CSE Department",
+    "details": {
+      "name": "Dr. Murali G.",
+      "designation": "Professor & Head",
+      "email": "drmuralig@rljit.in"
+    },
+    "text_for_ai": "Dr. Murali G. is the Head of the Computer Science & Engineering (CSE) department at RLJIT. His official email address is drmuralig@rljit.in."
+  },
+  {
+    "category": "Academics",
+    "title": "HOD - Electronics & Communication (ECE)",
+    "location": "ECE Department",
+    "details": {
+      "name": "Dr. Anil Kumar C.",
+      "designation": "Professor & Head",
+      "email": "anilkumarc@rljit.in"
+    },
+    "text_for_ai": "Dr. Anil Kumar C. serves as the Head of the Electronics & Communication Engineering (ECE) department at RLJIT. You can contact him at anilkumarc@rljit.in."
+  },
+  {
+    "category": "Academics",
+    "title": "HOD - Mechanical Engineering (ME)",
+    "location": "Mechanical Block",
+    "details": {
+      "name": "Dr. Sunil Kumar K.",
+      "designation": "Associate Professor & Head",
+      "email": "hod.mech@rljit.in"
+    },
+    "text_for_ai": "Dr. Sunil Kumar K. is the Head of the Mechanical Engineering (ME) department at RLJIT. The department contact email is hod.mech@rljit.in."
+  },
+  {
+    "category": "Academics",
+    "title": "HOD - Artificial Intelligence & ML (AIML)",
+    "location": "CSE Block",
+    "details": {
+      "name": "Dr. Manjunatha B. N.",
+      "designation": "Associate Professor & Head",
+      "email": "manjunathabn@rljit.in"
+    },
+    "text_for_ai": "Dr. Manjunatha B. N. is the Head of the Artificial Intelligence & Machine Learning (AIML) department at RLJIT. His email ID is manjunathabn@rljit.in."
+  },
+  {
+    "category": "Academics",
+    "title": "HOD - Data Science (CSE-DS)",
+    "location": "CSE Block",
+    "details": {
+      "name": "Dr. Mrutyunjaya M. S.",
+      "designation": "Associate Professor & Head",
+      "email": "hod.cseds@rljit.in"
+    },
+    "text_for_ai": "Dr. Mrutyunjaya M. S. heads the Data Science (CSE-DS) department at RLJIT. The official contact email for this department head is hod.cseds@rljit.in."
+  },
+  {
+    "category": "Academics",
+    "title": "HOD - Allied Sciences (Basic Sciences)",
+    "location": "First Year Block",
+    "details": {
+      "name": "Mrs. Meenakshi H.",
+      "designation": "Assistant Professor & Head",
+      "email": "meenakshih@rljit.in"
+    },
+    "text_for_ai": "Mrs. Meenakshi H. is the Head of the Allied Sciences department at RLJIT, which oversees first-year subjects like Physics, Chemistry, and Mathematics. Her email is meenakshih@rljit.in."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - First Year - Semester 1 (Physics Cycle)",
+    "location": "Basic Sciences Block",
+    "details": {
+      "Subjects": "Mathematics-I, Applied Physics, Principles of Programming in C, Basic Electronics, Elements of Civil Engineering.",
+      "Labs": "Engineering Physics Lab, C Programming Lab.",
+      "Common": "Innovation and Design Thinking (IDT), Communicative English."
+    },
+    "text_for_ai": "In the Physics Cycle of the First Year (Semester 1), students study Mathematics-I, Applied Physics, C Programming, Basic Electronics, and Civil Engineering. It includes labs for Physics and C Programming."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - First Year - Semester 1 (Chemistry Cycle)",
+    "location": "Basic Sciences Block",
+    "details": {
+      "Subjects": "Mathematics-I, Applied Chemistry, Problem Solving with Python, Basic Electrical Engineering, Elements of Mechanical Engineering.",
+      "Labs": "Engineering Chemistry Lab, Python Programming Lab.",
+      "Common": "Innovation and Design Thinking (IDT), Communicative English."
+    },
+    "text_for_ai": "In the Chemistry Cycle of the First Year (Semester 1), students focus on Mathematics-I, Applied Chemistry, Python Programming, Basic Electrical Engineering, and Mechanical Engineering. It includes labs for Chemistry and Python."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - First Year - Semester 2",
+    "location": "Basic Sciences Block",
+    "details": {
+      "Overview": "Students swap cycles (Physics to Chemistry or vice versa).",
+      "Core": "Mathematics-II is common for all.",
+      "Languages": "Professional Writing Skills in English."
+    },
+    "text_for_ai": "In Semester 2, students swap their cycle (Physics students take Chemistry subjects, and vice versa). Mathematics-II is the common core subject, along with Professional Writing Skills in English."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - CSE - Semester 3",
+    "location": "CSE Department",
+    "details": {
+      "Core Subjects": "Transform Calculus, Fourier Series & Numerical Tech, Data Structures & Applications, Analog & Digital Electronics, Computer Organization & Architecture.",
+      "Labs": "Object Oriented Programming with Java, Data Structures Lab.",
+      "Languages/Common": "Samskrutika/Balake Kannada, Social Connect & Responsibility."
+    },
+    "text_for_ai": "CSE Semester 3 covers Data Structures, Computer Organization, and Java Programming. It also includes Transform Calculus and Digital Electronics."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - CSE - Semester 4",
+    "location": "CSE Department",
+    "details": {
+      "Core Subjects": "Math Foundations/Linear Algebra, Design & Analysis of Algorithms, Microcontroller & Embedded Systems, Operating Systems, Biology for Engineers.",
+      "Labs": "Python Programming Lab, Algorithms Lab.",
+      "Languages/Common": "Samskrutika/Balake Kannada, Constitution of India, Universal Human Values."
+    },
+    "text_for_ai": "CSE Semester 4 focuses on Algorithms, Operating Systems, and Embedded Systems. It includes mathematical foundations and Python labs."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - CSE - Semester 5",
+    "location": "CSE Department",
+    "details": {
+      "Core Subjects": "Automata Theory & Compiler Design, Computer Networks, Database Management Systems (DBMS), Artificial Intelligence & Machine Learning.",
+      "Labs": "DBMS Lab with Mini Project, AngularJS/NodeJS (Skill Lab)."
+    },
+    "text_for_ai": "CSE Semester 5 introduces advanced topics like AI, Machine Learning, DBMS, and Compiler Design. It also includes full-stack skills like AngularJS and NodeJS."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - CSE - Semester 6",
+    "location": "CSE Department",
+    "details": {
+      "Core Subjects": "Software Engineering & Project Management, Full Stack Development, Computer Graphics & Image Processing.",
+      "Electives": "Advanced Java, Data Mining, or Cloud Computing.",
+      "Labs": "Computer Graphics Lab, Mini Project."
+    },
+    "text_for_ai": "CSE Semester 6 covers Software Engineering, Full Stack Development, and Computer Graphics. Students also undertake a Mini Project."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - CSE - Semester 7",
+    "location": "CSE Department",
+    "details": {
+      "Core Subjects": "Big Data Analytics, Cloud Computing, Object Oriented Modeling & Design.",
+      "Project": "Project Work Phase 1."
+    },
+    "text_for_ai": "CSE Semester 7 focuses on Big Data and Cloud Computing. Students begin Phase 1 of their Major Project."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - CSE - Semester 8",
+    "location": "CSE Department",
+    "details": {
+      "Activities": "Technical Seminar, Research/Industry Internship, Major Project Work (Phase 2), Online Course (MOOCs)."
+    },
+    "text_for_ai": "CSE Semester 8 is dedicated to the final Major Project, Internships, and Technical Seminars."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - ECE - Semester 3",
+    "location": "ECE Department",
+    "details": {
+      "Core Subjects": "Transform Calculus & Numerical Techniques, Digital System Design using Verilog, Basic Signal Processing, Analog Electronic Circuits.",
+      "Labs": "Analog & Digital Electronics Lab, LabVIEW Programming."
+    },
+    "text_for_ai": "ECE Semester 3 introduces Digital System Design (Verilog), Signal Processing, and Analog Circuits."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - ECE - Semester 4",
+    "location": "ECE Department",
+    "details": {
+      "Core Subjects": "Maths for Communication Engineers, Digital Signal Processing (DSP), Circuits & Controls, Communication Theory, Biology for Engineers.",
+      "Labs": "Communication Lab, Octave/Scilab Programming."
+    },
+    "text_for_ai": "ECE Semester 4 focuses on Digital Signal Processing (DSP), Communication Theory, and Control Systems."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - ECE - Semester 5",
+    "location": "ECE Department",
+    "details": {
+      "Core Subjects": "Digital Communication, Computer Organization & ARM Microcontrollers, Electromagnetic Waves, Computer Communication Networks.",
+      "Labs": "Communication Lab II, IoT Lab."
+    },
+    "text_for_ai": "ECE Semester 5 covers Digital Communication, Electromagnetics, and Embedded Systems using ARM Microcontrollers."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - ECE - Semester 6",
+    "location": "ECE Department",
+    "details": {
+      "Core Subjects": "VLSI Design & Testing, Microwave Theory & Antennas, Tech Innovation Management.",
+      "Labs": "VLSI Lab, Mini Project.",
+      "Electives": "Python for ECE, MEMS, Artificial Neural Networks."
+    },
+    "text_for_ai": "ECE Semester 6 emphasizes VLSI Design, Microwaves, and Antennas. Students also work on a Mini Project."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - ECE - Semester 7",
+    "location": "ECE Department",
+    "details": {
+      "Core Subjects": "Wireless Communication, Digital Image Processing, Information Theory & Coding.",
+      "Project": "Project Work Phase 1."
+    },
+    "text_for_ai": "ECE Semester 7 focuses on Wireless Communication and Image Processing. Students start Phase 1 of their Major Project."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - ECE - Semester 8",
+    "location": "ECE Department",
+    "details": {
+      "Activities": "Technical Seminar, Internship, Major Project Work (Phase 2), Online Course (MOOCs)."
+    },
+    "text_for_ai": "ECE Semester 8 involves the completion of the Major Project, Internships, and Technical Seminars."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - Mechanical (ME) - Semester 3",
+    "location": "Mechanical Block",
+    "details": {
+      "Core Subjects": "Calculus, Metal Casting, Forming & Joining Processes, Material Science & Engineering, Thermodynamics.",
+      "Labs": "Machine Drawing & GD&T, Virtual Reality Fundamentals."
+    },
+    "text_for_ai": "Mechanical Engineering Semester 3 covers Thermodynamics, Material Science, and Manufacturing Processes like Casting and Joining."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - Mechanical (ME) - Semester 4",
+    "location": "Mechanical Block",
+    "details": {
+      "Core Subjects": "Complex Analysis, Machining Science & Jigs/Fixtures, Fluid Mechanics, Mechanics of Materials.",
+      "Labs": "Measurements & Metrology Lab, Foundry/Forging Lab."
+    },
+    "text_for_ai": "Mechanical Semester 4 focuses on Fluid Mechanics, Mechanics of Materials, and Machining Science."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - Mechanical (ME) - Semester 5",
+    "location": "Mechanical Block",
+    "details": {
+      "Core Subjects": "Design of Machine Elements - I, Applied Thermodynamics, Dynamics of Machines, Turbo Machines.",
+      "Labs": "Energy Conversion Lab, Fluid Mechanics Lab."
+    },
+    "text_for_ai": "Mechanical Semester 5 involves Design of Machine Elements, Dynamics of Machines, and Turbo Machines."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - Mechanical (ME) - Semester 6",
+    "location": "Mechanical Block",
+    "details": {
+      "Core Subjects": "Heat Transfer, Finite Element Methods (FEM), Design of Machine Elements - II.",
+      "Labs": "Heat Transfer Lab, Mini Project."
+    },
+    "text_for_ai": "Mechanical Semester 6 focuses on Heat Transfer, Finite Element Methods (FEM), and advanced Machine Design."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - Mechanical (ME) - Semester 7",
+    "location": "Mechanical Block",
+    "details": {
+      "Core Subjects": "Control Engineering, Computer Integrated Manufacturing (CIM), Mechatronics / Robotics.",
+      "Project": "Project Work Phase 1."
+    },
+    "text_for_ai": "Mechanical Semester 7 covers Robotics, Mechatronics, and CIM. Students begin their Major Project."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - Mechanical (ME) - Semester 8",
+    "location": "Mechanical Block",
+    "details": {
+      "Activities": "Technical Seminar, Internship, Major Project Work (Phase 2)."
+    },
+    "text_for_ai": "Mechanical Semester 8 is for the final Major Project, Internship, and Technical Seminar."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - AI/ML & Data Science - Semester 3",
+    "location": "CSE Block",
+    "details": {
+      "Core Subjects": "Data Structures, Digital Electronics, Computer Organization, Python for Data Science."
+    },
+    "text_for_ai": "Semester 3 for AI/ML and Data Science students includes core Data Structures and a specialized course in Python for Data Science."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - AI/ML & Data Science - Semester 4",
+    "location": "CSE Block",
+    "details": {
+      "Core Subjects": "Algorithms, Operating Systems, Math Foundations for AI, Embedded Systems."
+    },
+    "text_for_ai": "Semester 4 for AI/ML and Data Science focuses on Algorithms and the Mathematical Foundations specific to Artificial Intelligence."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - AI/ML & Data Science - Semester 5",
+    "location": "CSE Block",
+    "details": {
+      "Core Subjects": "Principles of AI, Database Management Systems (DBMS), Machine Learning, Computer Networks."
+    },
+    "text_for_ai": "Semester 5 is a core semester for AI/ML/DS, covering Principles of AI, Machine Learning algorithms, and DBMS."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - AI/ML & Data Science - Semester 6",
+    "location": "CSE Block",
+    "details": {
+      "Core Subjects": "Deep Learning, Data Visualization, Big Data Analytics, Software Engineering."
+    },
+    "text_for_ai": "Semester 6 delves into Deep Learning and Data Visualization techniques, along with Big Data Analytics."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - AI/ML & Data Science - Semester 7",
+    "location": "CSE Block",
+    "details": {
+      "Core Subjects": "Natural Language Processing (NLP), Reinforcement Learning, Cloud Computing."
+    },
+    "text_for_ai": "Semester 7 for AI/ML/DS covers advanced topics like NLP and Reinforcement Learning."
+  },
+  {
+    "category": "Academics",
+    "title": "Curriculum - AI/ML & Data Science - Semester 8",
+    "location": "CSE Block",
+    "details": {
+      "Activities": "Internship, Major Project."
+    },
+    "text_for_ai": "Semester 8 for AI/ML and Data Science students is dedicated to Industry Internships and the Major Project."
+  }
+]
