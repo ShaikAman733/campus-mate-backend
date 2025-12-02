@@ -13,8 +13,11 @@ app.use(cors());
 // --- 2. PROXY CONFIGURATION (MOVED UP) ---
 // CRITICAL: This must come BEFORE bodyParser so the request stream isn't consumed
 // This fixes the "Chatbot not responding" issue.
+// Add this line BEFORE the proxy middleware
+const pythonUrl = process.env.PYTHON_SERVICE_URL || 'http://localhost:5001';
+
 app.use(createProxyMiddleware({
-    target: 'http://localhost:5001',
+    target: pythonUrl,  // <--- Now it uses the variable from Render
     changeOrigin: true,
     pathFilter: ['/chat', '/api/lostfound', '/reload'] 
 }));
