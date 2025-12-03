@@ -11,8 +11,7 @@ from bson.errors import InvalidId
 import google.generativeai as genai
 
 # --- CONFIGURATION ---
-# Ensure your API Key is correct
-# Keys will be loaded from Render settings, not code
+# Keys will be loaded from Render settings
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 MONGO_URI = os.environ.get("MONGO_URI")
 
@@ -26,7 +25,6 @@ CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "DELETE",
 
 # --- DATABASE CONNECTION ---
 client = MongoClient(MONGO_URI)
-# NOTE: Chatbot data lives in 'college_bot'. Users live in 'campus-mate-db' (managed by Node.js)
 db = client['college_bot']
 
 # Global variable to cache chatbot knowledge
@@ -86,24 +84,20 @@ def reload_data():
 def chat():
     data = request.get_json()
     user_message = data.get('message', '')
-    file_data = data.get('file', None) # Get file data if exists
+    file_data = data.get('file', None) 
 
     print(f"\n🔍 Searching for: {user_message}")
     if file_data:
         print(f"📎 File attached: {file_data.get('name')}")
 
-    # --- 1. Prepare Prompt Content ---
     prompt_parts = []
     
-    # If file exists, process it for Gemini
     if file_data and file_data.get('data'):
         try:
-            # Remove "data:image/png;base64," prefix if present
             base64_str = file_data['data']
             if "," in base64_str:
                 base64_str = base64_str.split(",")[1]
             
-            # Create Gemini Blob
             file_blob = {
                 "mime_type": file_data.get('mime_type', 'image/png'),
                 "data": base64_str
@@ -112,17 +106,12 @@ def chat():
         except Exception as e:
             print(f"File Error: {e}")
 
-    # --- 2. Determine Text Prompt ---
-    
-    # If just a file with no text, ask for summary
     if not user_message and file_data:
         user_message = "Analyze this image/document and tell me what it is about."
 
     context = deep_search(user_message)
     
-    # Construct System Instructions
     if context.strip() and not file_data:
-        # Standard RAG (Text Only)
         prompt_parts.append(f"""
         You are the CampusBot for RLJIT. 
         Answer the user's question using ONLY the Source Data provided below. 
@@ -133,7 +122,6 @@ def chat():
         USER QUESTION: {user_message}
         """)
     else:
-        # General AI Mode (or File Analysis Mode)
         prompt_parts.append(f"""
         You are the CampusBot for RLJIT.
         
@@ -145,10 +133,7 @@ def chat():
         """)
 
     try:
-        # Using 1.5-flash as it supports Multimodal inputs (Images/PDFs)
         model = genai.GenerativeModel("gemini-2.5-flash")
-        
-        # Pass list of [Text, ImageBlob]
         response = model.generate_content(prompt_parts)
         return jsonify({"response": response.text})
     except Exception as e:
@@ -161,7 +146,6 @@ def chat():
 
 @app.route('/api/lostfound/image/<id>', methods=['GET'])
 def get_item_image(id):
-    """Serve the image file for a specific item ID."""
     try:
         item = db['lost_found'].find_one({'_id': ObjectId(id)})
         if not item or not item.get('image'):
@@ -176,7 +160,6 @@ def get_item_image(id):
 
 @app.route('/api/lostfound', methods=['GET'])
 def get_lost_found():
-    """Fetch all items (Excluding Image Data for Speed)."""
     try:
         items = list(db['lost_found'].find({}, {'image': 0}).sort('_id', -1).limit(50))
         for item in items:
@@ -187,7 +170,6 @@ def get_lost_found():
 
 @app.route('/api/lostfound', methods=['POST'])
 def add_lost_found():
-    """Add a new item."""
     try:
         data = request.get_json()
         new_item = {
@@ -207,7 +189,6 @@ def add_lost_found():
 
 @app.route('/api/lostfound/<id>', methods=['DELETE'])
 def delete_lost_found(id):
-    """Delete an item by ID."""
     try:
         result = db['lost_found'].delete_one({'_id': ObjectId(id)})
         if result.deleted_count == 1:
@@ -217,12 +198,37 @@ def delete_lost_found(id):
         return jsonify({"error": str(e)}), 500
 
 # ==========================================
-#      HEALTH CHECK
+#      🚀 AUTO-WAKE REDIRECT (UPDATED)
 # ==========================================
 @app.route('/', methods=['GET'])
 def home():
-    return jsonify({"status": "Online", "message": "Python AI Server is Running on Port 5001"}), 200
+    # This URL points to your Vercel Frontend
+    frontend_url = "https://campus-mate-frontend.vercel.app" 
+    
+    return f"""
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Waking up CampusBot...</title>
+            <meta http-equiv="refresh" content="0; url={frontend_url}" />
+            <style>
+                body {{ font-family: sans-serif; text-align: center; padding-top: 50px; background-color: #1a1a1a; color: #fff; }}
+                .loader {{ border: 5px solid #333; border-top: 5px solid #00d2ff; border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin: 20px auto; }}
+                @keyframes spin {{ 0% {{ transform: rotate(0deg); }} 100% {{ transform: rotate(360deg); }} }}
+            </style>
+        </head>
+        <body>
+            <h1>🚀 Waking up the AI...</h1>
+            <div class="loader"></div>
+            <p>Please wait, redirecting you to CampusBot...</p>
+            <script>
+                // Fallback if meta refresh doesn't work
+                window.location.href = "{frontend_url}";
+            </script>
+        </body>
+    </html>
+    """
 
 if __name__ == '__main__':
-    # Run on port 5001 to avoid conflict with Node (5000)
-    app.run(debug=True, port=5001)
+    port = int(os.environ.get("PORT", 5001))
+    app.run(host='0.0.0.0', port=port)
