@@ -4,3 +4,4 @@ pymongo
 google-generativeai
 gunicorn
 grpcio
+python-dotenv
