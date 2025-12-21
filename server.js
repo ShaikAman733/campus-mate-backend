@@ -61,7 +61,6 @@ const ChatSchema = new mongoose.Schema({
   sessions: { type: Array, default: [] }
 });
 
-// NEW: Lost & Found Schema
 const LostFoundSchema = new mongoose.Schema({
   title: String,
   description: String,
@@ -162,4 +161,30 @@ app.delete('/api/history/clear/:userId', async (req, res) => {
     }
 });
 
-//
+// --- 8. LOST & FOUND ROUTES ---
+
+app.get('/api/lostfound', async (req, res) => {
+    try {
+      const items = await LostFound.find().sort({ createdAt: -1 });
+      res.json(items);
+    } catch (err) {
+      res.status(500).json({ error: "Failed to fetch items" });
+    }
+});
+
+app.post('/api/lostfound', async (req, res) => {
+    try {
+      const newItem = new LostFound(req.body);
+      await newItem.save();
+      res.json({ message: "Item reported successfully", item: newItem });
+    } catch (err) {
+      res.status(500).json({ error: "Failed to save item" });
+    }
+});
+
+// --- 9. SERVER START (CRITICAL FOR RENDER PORT BINDING) ---
+const PORT = process.env.PORT || 10000;
+
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 NODE: Server is live on port ${PORT}`);
+});
