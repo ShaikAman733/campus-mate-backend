@@ -12,7 +12,7 @@ app.use(cors());
 
 /**
  * HEALTH CHECK ROUTE
- * Prevents the "Booting Server" loop on the frontend.
+ * Prevents the "BOOTING SERVER" loop on the frontend.
  */
 app.get('/', (req, res) => {
     res.status(200).send("Campus Mate Node Server is Running 🚀");
@@ -57,16 +57,16 @@ const ChatSchema = new mongoose.Schema({
   sessions: { type: Array, default: [] }
 });
 
-// UPDATED: Matches your existing 'lost_found' collection structure
+// Mapping to your existing 'lost_found' collection
 const LostFoundSchema = new mongoose.Schema({
   type: { type: String, enum: ['lost', 'found'] },
-  item: String,        // Changed from 'title' to 'item' to match Compass
+  item: String,        
   location: String,
   description: String,
-  contact: String,     // Added to match Compass
-  image: String,       // Added to match Compass
-  time: { type: String, default: () => new Date().toLocaleString() } // Matches your string format
-}, { collection: 'lost_found' }); // FORCES Mongoose to use your existing collection
+  contact: String,     
+  image: String,       
+  time: { type: String, default: () => new Date().toLocaleString() } 
+}, { collection: 'lost_found' }); // Force usage of existing collection
 
 const User = mongoose.model('User', UserSchema);
 const Chat = mongoose.model('Chat', ChatSchema);
@@ -116,11 +116,10 @@ app.post('/api/save-chat', async (req, res) => {
 
 app.get('/api/lostfound', async (req, res) => {
     try {
-      // Fetches existing data from 'lost_found' collection
-      const items = await LostFound.find().sort({ _id: -1 });
+      const items = await LostFound.find().sort({ _id: -1 }); // Fetches from college_bot
       res.json(items);
     } catch (err) {
-      res.status(500).json({ error: "Failed to fetch" });
+      res.status(500).json({ error: "Failed to fetch items" });
     }
 });
 
@@ -128,14 +127,34 @@ app.post('/api/lostfound', async (req, res) => {
     try {
       const newItem = new LostFound(req.body);
       await newItem.save();
-      res.json({ message: "Reported successfully", item: newItem });
+      res.json({ message: "Reported successfully", item: newItem }); // Return 'item' for UI
     } catch (err) {
       res.status(500).json({ error: "Save failed" });
     }
 });
 
+app.delete('/api/lostfound/:id', async (req, res) => {
+    try {
+        await LostFound.findByIdAndDelete(req.params.id); // Fixes deletion
+        res.json({ message: "Item deleted successfully" });
+    } catch (err) {
+        res.status(500).json({ error: "Delete failed" });
+    }
+});
+
+app.get('/api/lostfound/image/:id', async (req, res) => {
+    try {
+        const item = await LostFound.findById(req.params.id);
+        if (!item || !item.image) return res.status(404).send('No image');
+        const base64Data = item.image.split(",")[1] || item.image;
+        const img = Buffer.from(base64Data, 'base64');
+        res.writeHead(200, { 'Content-Type': 'image/jpeg', 'Content-Length': img.length });
+        res.end(img);
+    } catch (err) { res.status(500).send("Error fetching image"); }
+});
+
 // --- 9. SERVER START ---
 const PORT = process.env.PORT || 10000;
 app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 NODE: Server live on port ${PORT}`);
+    console.log(`🚀 NODE: Server is live on port ${PORT}`);
 });
