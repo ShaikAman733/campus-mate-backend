@@ -643,7 +643,7 @@
       "management": "Sri Devaraj Urs Educational Trust (SDUET)",
       "accreditation": "NAAC Accredited (Cycle 1)"
     },
-    "text_for_ai": "R. L. Jalappa Institute of Technology (RLJIT) was established in 2001 in Doddaballapur, Karnataka. [cite_start]It is affiliated with VTU, approved by AICTE, and managed by the Sri Devaraj Urs Educational Trust[cite: 27, 28]."
+    "text_for_ai": "R. L. Jalappa Institute of Technology (RLJIT) was established in 2001 in Doddaballapur, Karnataka. It is affiliated with VTU, approved by AICTE, and managed by the Sri Devaraj Urs Educational Trust."
   },
   {
     "category": "Academics",
@@ -653,7 +653,7 @@
       "pg_programs": "MBA ",
       "student_strength": "931 students ",
       "pass_percentage": "96.81% (latest completed academic year) ",
-      "curriculum": "Follows VTU curriculum with added value courses (NPTEL/MOOC/Coursera) [cite: 85, 94]"
+      "curriculum": "Follows VTU curriculum with added value courses (NPTEL/MOOC/Coursera)"
     },
     "text_for_ai": "RLJIT offers 5 UG courses including emerging areas like AI&ML and Data Science, and 1 PG course (MBA).  The institute maintains a high pass percentage of 96.81% and integrates MOOCs into student learning."
   },
@@ -667,7 +667,7 @@
       "retention": "94.18% of sanctioned posts filled ",
       "research_guides": "10 faculty recognized as Research Supervisors "
     },
-    "text_for_ai": "The institute has a student-teacher ratio of 12.75:1 with around 73 full-time faculty members. Approximately 25 faculty members hold Ph.D. degrees, and 10 are recognized research supervisors[cite: 478, 609, 656]."
+    "text_for_ai": "The institute has a student-teacher ratio of 12.75:1 with around 73 full-time faculty members. Approximately 25 faculty members hold Ph.D. degrees, and 10 are recognized research supervisors."
   },
   {
     "category": "Infrastructure",
@@ -812,7 +812,7 @@
       "network_topology": "Star Topology with 20 Port Switches and 72 Dual Band Access Points ",
       "software_tools": "Libsoft 12.0 (Library), Drillbit (Plagiarism), Knimbus (Remote Access) "
     },
-    "text_for_ai": "RLJIT maintains a robust IT infrastructure with 510 computers and a high-speed internet connection of 310 Mbps[cite: 1033, 1035]. The network utilizes a Star topology, and the institute employs specialized software like Drillbit for plagiarism checking and Libsoft for library management[cite: 971, 954]."
+    "text_for_ai": "RLJIT maintains a robust IT infrastructure with 510 computers and a high-speed internet connection of 310 Mbps. The network utilizes a Star topology, and the institute employs specialized software like Drillbit for plagiarism checking and Libsoft for library management."
   },
   {
     "category": "Governance",
@@ -1720,5 +1720,124 @@
       "Activities": "Internship, Major Project."
     },
     "text_for_ai": "Semester 8 for AI/ML and Data Science students is dedicated to Industry Internships and the Major Project."
+  } ,
+
+
+  {
+    "category": "Academics",
+    "title": "Timetable - CS&E (Artificial Intelligence & Machine Learning) - Semester 5 - Section A",
+    "location": "CSE Block, Room No. AI&ML 303",
+    "details": {
+      "college": "R. L. JALAPPA INSTITUTE OF TECHNOLOGY",
+      "academicYear": "2025-26",
+      "classCoordinator": "Mrs. Rekha KP",
+      "weeklySchedule": {
+        "Monday": "9:20AM-11:00AM: SEPM, SEPM; 11:10AM-12:50PM: CN, TOC; 1:30PM-4:00PM: USP, RM, LG",
+        "Tuesday": "9:20AM-11:00AM: USP, USP; 11:10AM-12:50PM: RM, ES; 1:30PM-4:00PM: Mini Project",
+        "Wednesday": "9:20AM-11:00AM: CN, CN; 11:10AM-12:50PM: SEPM, TOC; 1:30PM-4:00PM: USP, TOC, Tutorial",
+        "Thursday": "9:20AM-11:00AM: TOC, TOC; 11:10AM-12:50PM: USP, CN; 1:30PM-4:00PM: RM, SEPM, Tutorial",
+        "Friday": "9:20AM-11:00AM: RM, RM; 11:10AM-12:50PM: ES, Placement; 1:30PM-4:00PM: CN, SEPM, Library",
+        "Saturday": "9:20AM-11:00AM: NSS/PE; 11:10AM-12:50PM: CN Lab; 1:30PM-4:00PM: Data Visualization Lab"
+      },
+      "subjectAllocation": [
+        {"code": "BCS501", "title": "Software Engineering & Project Management", "faculty": "Ms. Priyanka TV"},
+        {"code": "BCS502", "title": "Computer Networks", "faculty": "Ms. Varshini BR"},
+        {"code": "BCS503", "title": "Theory of Computation", "faculty": "Mrs. Nandini KV"},
+        {"code": "BCS515C", "title": "Unix System Programming", "faculty": "Dr. Manjunatha BN"},
+        {"code": "BRMK557", "title": "Research Methodology and IPR", "faculty": "Mrs. Rekha KP"},
+        {"code": "BCS508", "title": "Environmental Studies and E-waste Management", "faculty": "Mrs. Hemalatha B R"},
+        {"code": "BNSK359", "title": "National Service Scheme (NSS)", "faculty": "Ms. Nidhi Singh M"},
+        {"code": "ΒΡΕΚ359", "title": "Physical Education (PE)", "faculty": "Mr. Dadapheer PD"},
+        {"code": "BC1586", "title": "Mini Project", "faculty": "Mrs. Anupriya AG"},
+        {"code": "BAIL504", "title": "Data Visualization Lab", "faculty": "Mrs. Rekha K. P / Ms. Varshini BR"}
+      ]
+    },
+    "text_for_ai": "Semester 5 AI&ML (Section A) for 2025-26 is coordinated by Mrs. Rekha KP in room 303. The schedule includes SEPM, Computer Networks, Theory of Computation, and Unix System Programming. Labs for CN and Data Visualization are held on Saturdays."
+  },
+  {
+    "category": "Academics",
+    "title": "Timetable - Allied Sciences (Branch AI&ML) - Semester 1 - Section F",
+    "location": "CSE Block, Room No. CS-304",
+    "details": {
+      "college": "R. L. JALAPPA INSTITUTE OF TECHNOLOGY",
+      "academicYear": "2025-26",
+      "cycle": "Chemistry",
+      "classCoordinator": "Mrs. Reshma SR",
+      "weeklySchedule": {
+        "Monday": "9:20AM-11:00AM: HORT, PLACEMENT; 11:10AM-12:50PM: ESC-1, ESC-1; 1:30PM-4:00PM: PLC, MAT, CHE",
+        "Tuesday": "9:20AM-11:00AM: MAT, ENG; 11:10AM-12:50PM: CHE, AI; 1:30PM-4:00PM: ESC-1, ICO, PLC",
+        "Wednesday": "9:20AM-11:00AM: CHE/PLC, MAT; 11:10AM-12:50PM: MAT, AI; 1:30PM-4:00PM: AI, TUT, LIB",
+        "Thursday": "9:20AM-11:00AM: MAT, CHE; 11:10AM-12:50PM: PLC, PLC; 1:30PM-4:00PM: ESC-1, AI, IDT, IDT",
+        "Friday": "9:20AM-11:00AM: MATL, PLC; 11:10AM-12:50PM: MAT, CHE; 1:30PM-4:00PM: AI, ENGL, PLC",
+        "Saturday": "9:20AM-11:00AM: CHE/PLC, ESC-1; 11:10AM-4:00PM: LG, LG, LG"
+      },
+      "subjectAllocation": [
+        {"code": "IBMATS101", "title": "Calculus and Linear Algebra", "faculty": "Mrs. Reshma SR"},
+        {"code": "IBCHES102", "title": "Applied Chemistry for Smart Systems", "faculty": "Mrs. Sujatha V"},
+        {"code": "IBAIA103", "title": "Introduction to AI and Applications", "faculty": "Dr. Manjunath BN"},
+        {"code": "IBESC104D", "title": "Introduction to Mechanical Engineering", "faculty": "Mr. Lakshminarayana TH"},
+        {"code": "1BPLC105B", "title": "Python Programming", "faculty": "Mrs. Ashwini S"},
+        {"code": "IBENG106", "title": "Communication Skills", "faculty": "Mr. Ravikiran KR"},
+        {"code": "181C0107", "title": "Indian Constitution & Engineering Ethics", "faculty": "Mrs. Sudha J"},
+        {"code": "1BIDTL158", "title": "Innovation and Design Thinking Lab", "faculty": "Dr. Hanumanthe Gowda"}
+      ]
+    },
+    "text_for_ai": "First Semester AI&ML (Section F, Chemistry Cycle) for 2025-26 is coordinated by Mrs. Reshma SR in room CS-304. Subjects include Calculus, Applied Chemistry, Python Programming, and Introduction to AI. Monday mornings include Placement sessions."
+  },
+  {
+    "category": "Academics",
+    "title": "Timetable - CS&E (Data Science) - Semester 7 - Section A",
+    "location": "CSE Block, Room Nos. CS-302, 309, 310",
+    "details": {
+      "college": "R. L. JALAPPA INSTITUTE OF TECHNOLOGY",
+      "academicYear": "2025-2026",
+      "classCoordinator": "Mrs. Ramya N",
+      "weeklySchedule": {
+        "Monday": "CNS, SML, BA, CNS(T), Library, PPL",
+        "Tuesday": "SML, NTM, BA, SML Lab",
+        "Wednesday": "BA, SML, CNS, Major Project Phase-II",
+        "Thursday": "SML, BA, NTM, PP, PP(T), Club Activities",
+        "Friday": "CNS, PP, SML, Major Project Phase-II",
+        "Saturday": "PP, PP, CNS, BA, SML(T), PE"
+      },
+      "subjectAllocation": [
+        {"code": "BD701", "title": "Parallel Programming (PP)", "faculty": "Dr. Kavitha C"},
+        {"code": "BAD702", "title": "Statistical Machine Learning (SML)", "faculty": "Mrs. Farin Begum"},
+        {"code": "BCS703", "title": "Cryptography & Network Security (CNS)", "faculty": "Mrs. Sowmya P"},
+        {"code": "BCD714B", "title": "Business Analytics (BA)", "faculty": "Mrs. Ramya N"},
+        {"code": "BCS755", "title": "NTM", "faculty": "Mrs. Shilpa"},
+        {"code": "BCP706", "title": "Major Project Phase-II", "faculty": "Dr. Mrutyunjaya MN"}
+      ]
+    },
+    "text_for_ai": "The 7th Semester Data Science (Section A) timetable for 2025-26 is coordinated by Mrs. Ramya N. Key subjects include Parallel Programming, SML, and Cryptography. Major Project Phase-II is scheduled on Wednesdays and Fridays."
+  },
+  {
+    "category": "Academics",
+    "title": "Timetable - CS&E (Artificial Intelligence & Machine Learning) - Semester 7 - Section A",
+    "location": "CSE Block, Room No. 301",
+    "details": {
+      "college": "R. L. JALAPPA INSTITUTE OF TECHNOLOGY",
+      "academicYear": "2025-26",
+      "classCoordinator": "Mrs. Anupriya A G",
+      "weeklySchedule": {
+        "Monday": "DL, DL, ML, CNS, NTM, ML, DL",
+        "Tuesday": "BDA, BDA, DL, ML, CNS, BDA, ML",
+        "Wednesday": "NTM, NTM, BDA, ML, DL, NTM, ML(T)",
+        "Thursday": "ML, ML, CNS, Machine Learning Lab, Project Phase-II",
+        "Friday": "CNS, CNS, NTM, Deep Learning Lab, Library, LG, Dept Activities",
+        "Saturday": "Review for major project"
+      },
+      "subjectAllocation": [
+        {"code": "BCA701", "title": "Deep Learning", "faculty": "Mrs. Nandini K. V"},
+        {"code": "BA1702", "title": "Machine Learning -II", "faculty": "Ms. Nidhi Singh M"},
+        {"code": "BCS703", "title": "Cryptography & Network Security", "faculty": "Ms. Priyanka TV"},
+        {"code": "BCS714D", "title": "Big Data Analytics", "faculty": "Dr. N Manjunatha"},
+        {"code": "BME755A", "title": "Introduction to Non-Traditional machining", "faculty": "Mr. Raghavendra Prasad"}
+      ]
+    },
+    "text_for_ai": "Semester 7 AI&ML (Section A) for 2025-26 is coordinated by Mrs. Anupriya A G in room 301. Curriculum focuses on Deep Learning, Machine Learning II, and Cryptography. Saturdays are reserved for major project reviews."
   }
+
+
+
 ]
