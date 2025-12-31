@@ -24,7 +24,7 @@ const pythonUrl = process.env.PYTHON_SERVICE_URL || 'https://campus-bot-python.o
 app.use(createProxyMiddleware({
     target: pythonUrl,
     changeOrigin: true,
-    pathFilter: ['/chat', '/reload'], 
+    pathFilter: ['/chat', '/reload', '/api/update-profile'],  
     onProxyReq: (proxyReq, req, res) => {
         console.log(`📡 PROXY_REQ: [${req.method}] ${req.url}`);
     }
@@ -95,6 +95,29 @@ app.post('/api/login', async (req, res) => {
   } catch (error) { res.status(500).json({ error: 'Login Error' }); }
 });
 
+
+app.post('/api/update-profile', async (req, res) => {
+  const { username, full_name, department, email, avatar } = req.body;
+  try {
+    // Find user by username and update their details
+    const updatedUser = await User.findOneAndUpdate(
+      { username: username }, 
+      { 
+        username: full_name, // If you want to change the displayed name
+        department: department,
+        email: email,
+        avatar: avatar, // Base64 image string
+        updatedAt: Date.now()
+      },
+      { new: true }
+    );
+
+    if (!updatedUser) return res.status(404).json({ error: 'User not found' });
+    res.json({ message: 'Profile Updated', user: updatedUser });
+  } catch (error) {
+    res.status(500).json({ error: 'Update Error' });
+  }
+});
 // --- 7. CHAT HISTORY ROUTES ---
 
 app.get('/api/history/:userId', async (req, res) => {
