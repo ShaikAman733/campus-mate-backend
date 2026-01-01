@@ -24,7 +24,7 @@ const pythonUrl = process.env.PYTHON_SERVICE_URL || 'https://campus-bot-python.o
 app.use(createProxyMiddleware({
     target: pythonUrl,
     changeOrigin: true,
-    pathFilter: ['/chat', '/reload', '/api/update-profile'],  
+    pathFilter: ['/chat', '/reload'],  
     onProxyReq: (proxyReq, req, res) => {
         console.log(`📡 PROXY_REQ: [${req.method}] ${req.url}`);
     }
@@ -103,7 +103,7 @@ app.post('/api/update-profile', async (req, res) => {
     const updatedUser = await User.findOneAndUpdate(
       { username: username }, 
       { 
-        username: full_name, // If you want to change the displayed name
+         // If you want to change the displayed name
         department: department,
         email: email,
         avatar: avatar, // Base64 image string
