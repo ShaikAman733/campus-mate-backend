@@ -10,10 +10,7 @@ const app = express();
 // --- 1. MIDDLEWARE ---
 app.use(cors());
 
-/**
- * HEALTH CHECK ROUTE
- * Prevents the "BOOTING SERVER" loop on the frontend.
- */
+
 app.get('/', (req, res) => {
     res.status(200).send("Campus Mate Node Server is Running 🚀");
 });
@@ -66,7 +63,7 @@ const LostFoundSchema = new mongoose.Schema({
   contact: String,     
   image: String,       
   time: { type: String, default: () => new Date().toLocaleString() } 
-}, { collection: 'lost_found' }); // Force usage of existing collection
+}, { collection: 'lost_found' }); 
 
 const User = mongoose.model('User', UserSchema);
 const Chat = mongoose.model('Chat', ChatSchema);
@@ -103,10 +100,10 @@ app.post('/api/update-profile', async (req, res) => {
     const updatedUser = await User.findOneAndUpdate(
       { username: username }, 
       { 
-         // If you want to change the displayed name
+         
         department: department,
         email: email,
-        avatar: avatar, // Base64 image string
+        avatar: avatar, 
         updatedAt: Date.now()
       },
       { new: true }
@@ -139,7 +136,7 @@ app.post('/api/save-chat', async (req, res) => {
 
 app.get('/api/lostfound', async (req, res) => {
     try {
-      const items = await LostFound.find().sort({ _id: -1 }); // Fetches from college_bot
+      const items = await LostFound.find().sort({ _id: -1 }); 
       res.json(items);
     } catch (err) {
       res.status(500).json({ error: "Failed to fetch items" });
@@ -150,7 +147,7 @@ app.post('/api/lostfound', async (req, res) => {
     try {
       const newItem = new LostFound(req.body);
       await newItem.save();
-      res.json({ message: "Reported successfully", item: newItem }); // Return 'item' for UI
+      res.json({ message: "Reported successfully", item: newItem }); 
     } catch (err) {
       res.status(500).json({ error: "Save failed" });
     }
@@ -158,7 +155,7 @@ app.post('/api/lostfound', async (req, res) => {
 
 app.delete('/api/lostfound/:id', async (req, res) => {
     try {
-        await LostFound.findByIdAndDelete(req.params.id); // Fixes deletion
+        await LostFound.findByIdAndDelete(req.params.id); 
         res.json({ message: "Item deleted successfully" });
     } catch (err) {
         res.status(500).json({ error: "Delete failed" });

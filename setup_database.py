@@ -2,10 +2,9 @@ import json
 import os
 from pymongo import MongoClient
 
-# --- CONFIGURATION ---
-MONGO_URI = "mongodb+srv://shaikaman123:1234567890@cluster0.iocl6jk.mongodb.net/?appName=Cluster0&retryWrites=true&w=majority"
-JSON_FILE_PATH = "alldata.json" # Make sure this file is in the same folder
 
+MONGO_URI = "mongodb+srv://shaikaman123:1234567890@cluster0.iocl6jk.mongodb.net/?appName=Cluster0&retryWrites=true&w=majority"
+JSON_FILE_PATH = "alldata.json" 
 def seed_database():
     try:
         # 1. Connect
@@ -13,7 +12,7 @@ def seed_database():
         db = client['college_bot']
         collection = db['knowledge_base']
         
-        # 2. CLEAR Old Data (Critical Step!)
+        # 2. CLEAR Old Data 
         print("🗑️  Clearing old data from MongoDB...")
         delete_result = collection.delete_many({})
         print(f"   Deleted {delete_result.deleted_count} old documents.")

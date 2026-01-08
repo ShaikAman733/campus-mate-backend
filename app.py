@@ -97,7 +97,7 @@ Style Guide:
         try:
             genai.configure(api_key=rotator.get_key())
             model = genai.GenerativeModel(
-                model_name="gemini-2.5-flash", # Fixed Model Name
+                model_name="gemini-2.5-flash", 
                 system_instruction=system_instruction
             )
             chat_session = model.start_chat(history=history)
